@@ -1,0 +1,268 @@
+TRUE
+CLIPS> (reset)
+<== Focus MAIN
+==> Focus MAIN
+MSG >> delete ED:1 (<Instance-initial-object>)
+HND >> delete primary in class USER
+       ED:1 (<Instance-initial-object>)
+<== instance [initial-object] of INITIAL-OBJECT
+HND << delete primary in class USER
+       ED:1 (<Stale Instance-initial-object>)
+MSG << delete ED:1 (<Stale Instance-initial-object>)
+<== f-0     (initial-fact)
+<== f-1     (elemento 1)
+<== Activation 10     regla-sumar1: f-1
+==> instance [initial-object] of INITIAL-OBJECT
+MSG >> create ED:1 (<Instance-initial-object>)
+HND >> create primary in class USER
+       ED:1 (<Instance-initial-object>)
+HND << create primary in class USER
+       ED:1 (<Instance-initial-object>)
+MSG << create ED:1 (<Instance-initial-object>)
+MSG >> init ED:1 (<Instance-initial-object>)
+HND >> init primary in class USER
+       ED:1 (<Instance-initial-object>)
+HND << init primary in class USER
+       ED:1 (<Instance-initial-object>)
+MSG << init ED:1 (<Instance-initial-object>)
+==> f-0     (initial-fact)
+==> f-1     (elemento 1)
+==> Activation 10     regla-sumar1: f-1
+CLIPS> (run 1)
+FIRE    1 regla-sumar1: f-1
+==> f-2     (elemento 2)
+==> Activation 10     regla-sumar1: f-2
+1 rules fired        Run time is 0.000139891999424435 seconds.
+7148.37163036021 rules per second.
+3 mean number of facts (3 maximum).
+1 mean number of instances (1 maximum).
+1 mean number of activations (1 maximum).
+CLIPS> (run 1)
+FIRE    1 regla-sumar1: f-2
+==> f-3     (elemento 3)
+==> Activation 10     regla-sumar1: f-3
+1 rules fired        Run time is 0.000163008997333236 seconds.
+6134.6307035784 rules per second.
+4 mean number of facts (4 maximum).
+1 mean number of instances (1 maximum).
+1 mean number of activations (1 maximum).
+CLIPS> (matches regla-sumar1)
+Matches for Pattern 1
+f-1
+f-2
+f-3
+Activations
+f-3
+CLIPS> (set-strategy breadth)
+depth
+CLIPS> (agenda)
+10     regla-sumar1: f-3
+For a total of 1 activation.
+CLIPS> (matches regla-sumar1)
+Matches for Pattern 1
+f-1
+f-2
+f-3
+Activations
+f-3
+CLIPS> (set-strategy random)
+breadth
+CLIPS>  (matches regla-sumar1)
+Matches for Pattern 1
+f-1
+f-2
+f-3
+Activations
+f-3
+CLIPS>  (matches regla-sumar1)
+Matches for Pattern 1
+f-1
+f-2
+f-3
+Activations
+f-3
+CLIPS>  (matches regla-sumar1)
+Matches for Pattern 1
+f-1
+f-2
+f-3
+Activations
+f-3
+CLIPS>  (matches regla-sumar1)
+Matches for Pattern 1
+f-1
+f-2
+f-3
+Activations
+f-3
+CLIPS> (run 1)
+FIRE    1 regla-sumar1: f-3
+==> f-4     (elemento 4)
+==> Activation 10     regla-sumar1: f-4
+1 rules fired        Run time is 0.000169644001289271 seconds.
+5894.69708566256 rules per second.
+5 mean number of facts (5 maximum).
+1 mean number of instances (1 maximum).
+1 mean number of activations (1 maximum).
+CLIPS>  (matches regla-sumar1)
+Matches for Pattern 1
+f-1
+f-2
+f-3
+f-4
+Activations
+f-4
+CLIPS>  (matches regla-sumar1)
+Matches for Pattern 1
+f-1
+f-2
+f-3
+f-4
+Activations
+f-4
+CLIPS> (facts)
+f-0     (initial-fact)
+f-1     (elemento 1)
+f-2     (elemento 2)
+f-3     (elemento 3)
+f-4     (elemento 4)
+For a total of 5 facts.
+CLIPS> (clear)
+CLIPS> (load 2.clp)
+Defining defrule: regla-sumar-elementos +j+j
+Defining defrule: regla-parar +j
+Defining deffacts: hechos-iniciales
+TRUE
+CLIPS> (reset)
+<== Focus MAIN
+==> Focus MAIN
+==> instance [initial-object] of INITIAL-OBJECT
+MSG >> create ED:1 (<Instance-initial-object>)
+HND >> create primary in class USER
+       ED:1 (<Instance-initial-object>)
+HND << create primary in class USER
+       ED:1 (<Instance-initial-object>)
+MSG << create ED:1 (<Instance-initial-object>)
+MSG >> init ED:1 (<Instance-initial-object>)
+HND >> init primary in class USER
+       ED:1 (<Instance-initial-object>)
+HND << init primary in class USER
+       ED:1 (<Instance-initial-object>)
+MSG << init ED:1 (<Instance-initial-object>)
+==> f-0     (initial-fact)
+==> f-1     (elemento 1)
+==> Activation 10     regla-sumar-elementos: f-1,f-1
+CLIPS> (run 1)
+FIRE    1 regla-sumar-elementos: f-1,f-1
+==> f-2     (elemento 2)
+==> Activation 10     regla-sumar-elementos: f-1,f-2
+==> Activation 10     regla-sumar-elementos: f-2,f-1
+==> Activation 10     regla-sumar-elementos: f-2,f-2
+2
+1 rules fired        Run time is 0.000256386992987245 seconds.
+3900.35386876957 rules per second.
+3 mean number of facts (3 maximum).
+1 mean number of instances (1 maximum).
+2 mean number of activations (3 maximum).
+CLIPS> (run 1)
+FIRE    1 regla-sumar-elementos: f-2,f-2
+==> f-3     (elemento 4)
+==> Activation 10     regla-sumar-elementos: f-2,f-3
+==> Activation 10     regla-sumar-elementos: f-1,f-3
+==> Activation 10     regla-sumar-elementos: f-3,f-1
+==> Activation 10     regla-sumar-elementos: f-3,f-2
+==> Activation 10     regla-sumar-elementos: f-3,f-3
+4
+1 rules fired        Run time is 0.000332234994857572 seconds.
+3009.91772533985 rules per second.
+4 mean number of facts (4 maximum).
+1 mean number of instances (1 maximum).
+5 mean number of activations (7 maximum).
+CLIPS> (facts)
+f-0     (initial-fact)
+f-1     (elemento 1)
+f-2     (elemento 2)
+f-3     (elemento 4)
+For a total of 4 facts.
+CLIPS> (run 1)
+FIRE    1 regla-sumar-elementos: f-1,f-2
+==> f-4     (elemento 3)
+==> Activation 10     regla-sumar-elementos: f-3,f-4
+==> Activation 10     regla-sumar-elementos: f-2,f-4
+==> Activation 10     regla-sumar-elementos: f-1,f-4
+==> Activation 10     regla-sumar-elementos: f-4,f-1
+==> Activation 10     regla-sumar-elementos: f-4,f-2
+==> Activation 10     regla-sumar-elementos: f-4,f-3
+==> Activation 10     regla-sumar-elementos: f-4,f-4
+3
+1 rules fired        Run time is 0.00036408199230209 seconds.
+2746.63405810598 rules per second.
+5 mean number of facts (5 maximum).
+1 mean number of instances (1 maximum).
+10 mean number of activations (13 maximum).
+CLIPS> (run 1)
+FIRE    1 regla-sumar-elementos: f-4,f-4
+==> f-5     (elemento 6)
+==> Activation 10     regla-sumar-elementos: f-4,f-5
+==> Activation 10     regla-sumar-elementos: f-3,f-5
+==> Activation 10     regla-sumar-elementos: f-2,f-5
+==> Activation 10     regla-sumar-elementos: f-1,f-5
+==> Activation 10     regla-sumar-elementos: f-5,f-1
+==> Activation 10     regla-sumar-elementos: f-5,f-2
+==> Activation 10     regla-sumar-elementos: f-5,f-3
+==> Activation 10     regla-sumar-elementos: f-5,f-4
+==> Activation 10     regla-sumar-elementos: f-5,f-5
+6
+1 rules fired        Run time is 0.000511937992996536 seconds.
+1953.36156659654 rules per second.
+6 mean number of facts (6 maximum).
+1 mean number of instances (1 maximum).
+17 mean number of activations (21 maximum).
+CLIPS> (run 1)
+FIRE    1 regla-sumar-elementos: f-5,f-3
+==> f-6     (elemento 10)
+==> Activation 10     regla-sumar-elementos: f-5,f-6
+==> Activation 10     regla-sumar-elementos: f-4,f-6
+==> Activation 10     regla-sumar-elementos: f-3,f-6
+==> Activation 10     regla-sumar-elementos: f-2,f-6
+==> Activation 10     regla-sumar-elementos: f-1,f-6
+==> Activation 10     regla-sumar-elementos: f-6,f-1
+==> Activation 10     regla-sumar-elementos: f-6,f-2
+==> Activation 10     regla-sumar-elementos: f-6,f-3
+==> Activation 10     regla-sumar-elementos: f-6,f-4
+==> Activation 10     regla-sumar-elementos: f-6,f-5
+==> Activation 10     regla-sumar-elementos: f-6,f-6
+10
+1 rules fired        Run time is 0.000516265994519927 seconds.
+1936.98599290836 rules per second.
+7 mean number of facts (7 maximum).
+1 mean number of instances (1 maximum).
+26 mean number of activations (31 maximum).
+CLIPS> (facts)
+f-0     (initial-fact)
+f-1     (elemento 1)
+f-2     (elemento 2)
+f-3     (elemento 4)
+f-4     (elemento 3)
+f-5     (elemento 6)
+f-6     (elemento 10)
+For a total of 7 facts.
+CLIPS> (agenda)
+10     regla-sumar-elementos: f-5,f-2
+10     regla-sumar-elementos: f-3,f-5
+10     regla-sumar-elementos: f-4,f-2
+10     regla-sumar-elementos: f-1,f-5
+10     regla-sumar-elementos: f-5,f-5
+10     regla-sumar-elementos: f-4,f-5
+10     regla-sumar-elementos: f-6,f-4
+10     regla-sumar-elementos: f-2,f-6
+10     regla-sumar-elementos: f-3,f-2
+10     regla-sumar-elementos: f-5,f-1
+10     regla-sumar-elementos: f-1,f-3
+10     regla-sumar-elementos: f-6,f-2
+10     regla-sumar-elementos: f-5,f-6
+10     regla-sumar-elementos: f-3,f-3
+10     regla-sumar-elementos: f-6,f-1
+10     regla-sumar-elementos: f-6,f-6
+10     regla-sumar-elementos: f-2,f-3
+10     regla-sumar-elementos: f-4,f-3
