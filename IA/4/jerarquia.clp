@@ -1,3 +1,7 @@
+;; Author: Fabio Rueda Carrascosa
+;; NIA: 100035946
+;; Inteligencia Artificial ITIG
+
 (dribble-on 4.log)
 (watch slots)
 
