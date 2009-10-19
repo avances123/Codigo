@@ -1,3 +1,4 @@
+#!/usr/bin/perl
 use GD;
 use gdal;
 use gdalconst;
