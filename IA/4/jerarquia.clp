@@ -115,9 +115,8 @@
    (of ROBOT (x 2) (y 2) (orientacion Norte))
    (of META (x 5) (y 5))
    (of INTRANSITABLE (x 3) (y 3))
+   ;; Artefacto para los limites
    (of ESQUINA (X 1) (Y 1))
-   (of ESQUINA (X 1) (Y 10))
-   (of ESQUINA (X 10) (Y 1))
    (of ESQUINA (X 10) (Y 10))
 )
 
@@ -142,11 +141,11 @@
    (declare (salience 20))
    ?robot <- (object (is-a ROBOT)(x ?x)(y ?y))
    ?desp  <- (desplazamiento (orientacion ?orientacion)(dx ?dx)(dy ?dy))
+   (object (is-a ESQUINA)(X ?i)(y ?j))
+   (object (is-a ESQUINA)(X ?k)(y ?l))
    ;; Controlamos que no se salga del tablero
-   (test (<= (+ ?x ?dx) 10))
-   (test (>= (+ ?x ?dx) 1))
-   (test (<= (+ ?y ?dy) 10))
-   (test (>= (+ ?y ?dy) 1))
+   (test (<= (+ ?x ?dx) ?i))   (test (>= (+ ?x ?dx) ?j))
+   (test (<= (+ ?y ?dy) ?k))   (test (>= (+ ?y ?dy) ?l))
    ;;(object (is-a INTRANSITABLE)(x ?x1 )(y ?y1))
    ;;(not (object (is-a INTRANSITABLE)(x ?x2)(y ?y2)))
    ;;(test (= (+ ?x ?dx) ?x1))
