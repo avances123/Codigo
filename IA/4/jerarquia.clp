@@ -106,11 +106,19 @@
 
 ;; Ejercicio 2
 ;; v1.0 El robot, la meta y un objeto intransitable, (las 100 casillas no se crean)
+;; v2.0 Agregadas esquinas (creado un tipo nuevo)
 ;; INSTANCIAS INICIALES
+
+(defclass ESQUINA (is-a OBJETO-POSICIONABLE))
+
 (definstances estado_inicial
    (of ROBOT (x 2) (y 2) (orientacion Norte))
    (of META (x 5) (y 5))
    (of INTRANSITABLE (x 3) (y 3))
+   (of ESQUINA (X 1) (Y 1))
+   (of ESQUINA (X 1) (Y 10))
+   (of ESQUINA (X 10) (Y 1))
+   (of ESQUINA (X 10) (Y 10))
 )
 
 ;; Ejercicio 3
