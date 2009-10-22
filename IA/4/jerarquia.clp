@@ -116,8 +116,8 @@
    (of META (x 5) (y 5))
    (of INTRANSITABLE (x 3) (y 3))
    ;; Artefacto para los limites
-   (of ESQUINA (X 1) (Y 1))
-   (of ESQUINA (X 10) (Y 10))
+   (of ESQUINA (x 1) (y 1))
+   (of ESQUINA (x 10) (y 10))
 )
 
 ;; Ejercicio 3
@@ -138,14 +138,19 @@
 ;; Regla Desplazar
 ;; v1.0 No comprueba objetos intransitables
 (defrule desplazar
-   (declare (salience 20))
-   ?robot <- (object (is-a ROBOT)(x ?x)(y ?y))
+   (declare (salience 20)) ;;si nos podemos mover a la casilla de enfrente nos movemos
+   ?robot <- (object (is-a ROBOT)(x ?x)(y ?y)(orientacion ?orientacion))
    ?desp  <- (desplazamiento (orientacion ?orientacion)(dx ?dx)(dy ?dy))
-   (object (is-a ESQUINA)(X ?i)(y ?j))
-   (object (is-a ESQUINA)(X ?k)(y ?l))
    ;; Controlamos que no se salga del tablero
-   (test (<= (+ ?x ?dx) ?i))   (test (>= (+ ?x ?dx) ?j))
-   (test (<= (+ ?y ?dy) ?k))   (test (>= (+ ?y ?dy) ?l))
+   ?esq1 <- (object (is-a ESQUINA)(x ?i)(y ?j))
+   ?esq2 <- (object (is-a ESQUINA)(x ?k)(y ?l))
+   (test (< ?i ?k))
+   (test (< ?j ?l))
+   (test (>= (+ ?x ?dx) ?i))
+   (test (<= (+ ?x ?dx) ?k))
+   (test (>= (+ ?y ?dy) ?j))
+   (test (<= (+ ?y ?dy) ?l))
+   ;; estamos dentro del tablero
    ;;(object (is-a INTRANSITABLE)(x ?x1 )(y ?y1))
    ;;(not (object (is-a INTRANSITABLE)(x ?x2)(y ?y2)))
    ;;(test (= (+ ?x ?dx) ?x1))
@@ -156,7 +161,7 @@
 
 ;; Regla girar
 (defrule girar
-   (declare (salience 10))
+   (declare (salience 10)) ;; si no nos podemos desplazar a la casilla de enfrente, giramos.
    ?robot <- (object (is-a ROBOT)(x ?x)(y ?y)(orientacion ?inicial))
    ;; (giro (inicial Norte) (sentido  Derecha) (final Este))
    ?giro <- (giro (inicial ?inicial)(sentido ?sentido)(final ?final))

@@ -102,11 +102,18 @@ CLIPS>
 
 ;; Ejercicio 2
 ;; v1.0 El robot, la meta y un objeto intransitable, (las 100 casillas no se crean)
+;; v2.0 Agregadas esquinas (creado un tipo nuevo)
 ;; INSTANCIAS INICIALES
+
+(defclass ESQUINA (is-a OBJETO-POSICIONABLE))
+CLIPS> 
 (definstances estado_inicial
    (of ROBOT (x 2) (y 2) (orientacion Norte))
    (of META (x 5) (y 5))
    (of INTRANSITABLE (x 3) (y 3))
+   ;; Artefacto para los limites
+   (of ESQUINA (x 1) (y 1))
+   (of ESQUINA (x 10) (y 10))
 )
 CLIPS> 
 ;; Ejercicio 3
@@ -127,14 +134,136 @@ CLIPS>
 ;; Regla Desplazar
 ;; v1.0 No comprueba objetos intransitables
 (defrule desplazar
-   (declare (salience 20))
-   ?robot <- (object (is-a ROBOT)(x ?x)(y ?y))
+   (declare (salience 20)) ;;si nos podemos mover a la casilla de enfrente nos movemos
+   ?robot <- (object (is-a ROBOT)(x ?x)(y ?y)(orientacion ?orientacion))
    ?desp  <- (desplazamiento (orientacion ?orientacion)(dx ?dx)(dy ?dy))
    ;; Controlamos que no se salga del tablero
-   (test (<= (+ ?x ?dx) 10))
-   (test (>= (+ ?x ?dx) 1))
-   (test (<= (+ ?y ?dy) 10))
-   (test (>= (+ ?y ?dy) 1))
+   ?esq1 <- (object (is-a ESQUINA)(x ?i)(y ?j))
+   ?esq2 <- (object (is-a ESQUINA)(x ?k)(y ?l))
+   (test (< ?i ?k))
+   (test (< ?j ?l))
+   (test (>= (+ ?x ?dx) ?i))
+   (test (<= (+ ?x ?dx) ?k))
+   (test (>= (+ ?y ?dy) ?j))
+   (test (<= (+ ?y ?dy) ?l))
+   ;; estamos dentro del tablero
    ;;(object (is-a INTRANSITABLE)(x ?x1 )(y ?y1))
    ;;(not (object (is-a INTRANSITABLE)(x ?x2)(y ?y2)))
-   ;;(test (= (+ ?x 
+   ;;(test (= (+ ?x ?dx) ?x1))
+   ;;(test (= (+ ?y ?dy) ?y1))
+   =>
+   (modify-instance ?robot (x (+ ?x ?dx))(y (+ ?y ?dy)))
+)
+CLIPS> 
+;; Regla girar
+(defrule girar
+   (declare (salience 10)) ;; si no nos podemos desplazar a la casilla de enfrente, giramos.
+   ?robot <- (object (is-a ROBOT)(x ?x)(y ?y)(orientacion ?inicial))
+   ;; (giro (inicial Norte) (sentido  Derecha) (final Este))
+   ?giro <- (giro (inicial ?inicial)(sentido ?sentido)(final ?final))
+   =>
+   (modify-instance ?robot (orientacion ?final))
+)
+CLIPS> 
+
+
+(reset)
+::= local slot x in instance gen1 <- 2
+::= local slot y in instance gen1 <- 2
+::= local slot orientacion in instance gen1 <- Norte
+::= local slot x in instance gen2 <- 5
+::= local slot y in instance gen2 <- 5
+::= local slot x in instance gen3 <- 3
+::= local slot y in instance gen3 <- 3
+::= local slot x in instance gen4 <- 1
+::= local slot y in instance gen4 <- 1
+::= local slot x in instance gen5 <- 10
+::= local slot y in instance gen5 <- 10
+CLIPS> (agenda)
+20     desplazar: [gen1],f-9,[gen4],[gen5]
+10     girar: [gen1],f-5
+10     girar: [gen1],f-1
+For a total of 3 activations.
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 2
+::= local slot y in instance gen1 <- 1
+CLIPS> (agenda)
+10     girar: [gen1],f-5
+10     girar: [gen1],f-1
+For a total of 2 activations.
+CLIPS> (run 1)
+::= local slot orientacion in instance gen1 <- Oeste
+CLIPS> (agenda)
+20     desplazar: [gen1],f-12,[gen4],[gen5]
+10     girar: [gen1],f-6
+10     girar: [gen1],f-4
+For a total of 3 activations.
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 1
+::= local slot y in instance gen1 <- 1
+CLIPS> (run 1)
+::= local slot orientacion in instance gen1 <- Sur
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 1
+::= local slot y in instance gen1 <- 2
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 1
+::= local slot y in instance gen1 <- 3
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 1
+::= local slot y in instance gen1 <- 4
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 1
+::= local slot y in instance gen1 <- 5
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 1
+::= local slot y in instance gen1 <- 6
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 1
+::= local slot y in instance gen1 <- 7
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 1
+::= local slot y in instance gen1 <- 8
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 1
+::= local slot y in instance gen1 <- 9
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 1
+::= local slot y in instance gen1 <- 10
+CLIPS> (run 1)
+::= local slot orientacion in instance gen1 <- Este
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 2
+::= local slot y in instance gen1 <- 10
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 3
+::= local slot y in instance gen1 <- 10
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 4
+::= local slot y in instance gen1 <- 10
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 5
+::= local slot y in instance gen1 <- 10
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 6
+::= local slot y in instance gen1 <- 10
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 7
+::= local slot y in instance gen1 <- 10
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 8
+::= local slot y in instance gen1 <- 10
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 9
+::= local slot y in instance gen1 <- 10
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 10
+::= local slot y in instance gen1 <- 10
+CLIPS> (run 1)
+::= local slot orientacion in instance gen1 <- Norte
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 10
+::= local slot y in instance gen1 <- 9
+CLIPS> (run 1)
+::= local slot x in instance gen1 <- 10
+::= local slot y in i
