@@ -1,0 +1,32 @@
+# Respuestas a los ejercicios sesion4 de IA ITIG
+# Alumno: Fabio Rueda Carrascosa
+# NIA: 100035946
+
+
+============================== Ejercicio 1 ====================================
+
+Esta bien explicado en los comentarios del codigo, primero se crea un objeto
+cuya unica informacion sea una posicion,(x,y). De este tipo e implementando
+mas funcionalidad hereda la clase ROBOT que sabremos, ademas de que tiene 
+una posicion, estara mirando hacia un punto cardinal.
+
+La clase META es una (x,y) determinada, solo sabemos que es un 
+objeto-posicionable, que es lo mismo que una pareja de digitos, igual que el
+objeto intransitable.
+
+el GIRO necesita saber hacia donde miramos antes de hacerlo , el sentido de 90
+grados que tomaremos y el punto hacia donde nos quedamos mirando, sirve para
+definirlo luego con sus plantillas.
+
+El DESPLAZAMIENTO mueve (1 casilla en la direccion que le pasemos) (gracias a
+las plantillas descritas abajo)
+
+
+============================== Ejercicio 2 ====================================
+TODO Meter codigo de las instancias iniciales
+
+============================== Ejercicio 3 ====================================
+TODO Meter codigo de la regla de finalizacion
+
+
+============================== Ejercicio 4 ====================================
