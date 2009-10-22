@@ -23,10 +23,27 @@ las plantillas descritas abajo)
 
 
 ============================== Ejercicio 2 ====================================
-TODO Meter codigo de las instancias iniciales
-
+(definstances estado_inicial
+   (of ROBOT (x 4) (y 3) (orientacion Norte))
+   (of META (x 5) (y 5))
+   (of INTRANSITABLE (x 3) (y 3))
+   (of INTRANSITABLE (x 8) (y 4))
+   (of INTRANSITABLE (x 1) (y 1))
+   ;; Artefacto para los limites
+   (of ESQUINA (x 1) (y 1))
+   (of ESQUINA (x 100) (y 100))
+   ;; guardamos el camino que recorre
+   ;;(open "camino.log" ?file "w")
+)
 ============================== Ejercicio 3 ====================================
-TODO Meter codigo de la regla de finalizacion
-
+(defrule condicion-fin
+   (declare (salience 30))
+   ?robot <- (object (is-a ROBOT)(x ?x)(y ?y))
+   ?meta  <- (object (is-a META)(x ?x)(y ?y))
+   =>
+   ;;(close ?file)
+   (printout t "El robot llego a la meta" crlf)
+   (halt)
+)
 
 ============================== Ejercicio 4 ====================================
