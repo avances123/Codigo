@@ -117,9 +117,11 @@
    (of ROBOT (x 4) (y 3) (orientacion Norte))
    (of META (x 5) (y 5))
    (of INTRANSITABLE (x 3) (y 3))
+   (of INTRANSITABLE (x 8) (y 4))
+   (of INTRANSITABLE (x 1) (y 1))
    ;; Artefacto para los limites
    (of ESQUINA (x 1) (y 1))
-   (of ESQUINA (x 10) (y 10))
+   (of ESQUINA (x 100) (y 100))
    ;; guardamos el camino que recorre
    ;;(open "camino.log" ?file "w")
 )
