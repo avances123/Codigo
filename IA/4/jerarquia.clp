@@ -1,9 +1,11 @@
-;; Author: Fabio Rueda Carrascosa
+;i; Author: Fabio Rueda Carrascosa
 ;; NIA: 100035946
 ;; Inteligencia Artificial ITIG
 
-(dribble-on 4.log)
-(watch slots)
+;;(defglobal ?file = "camino.log")
+(set-estrategy random)
+;;(dribble-on 4.log)
+;;(watch slots)
 
 
 ;;; ******************************************
@@ -112,21 +114,27 @@
 (defclass ESQUINA (is-a OBJETO-POSICIONABLE))
 
 (definstances estado_inicial
-   (of ROBOT (x 2) (y 2) (orientacion Norte))
+   (of ROBOT (x 4) (y 3) (orientacion Norte))
    (of META (x 5) (y 5))
    (of INTRANSITABLE (x 3) (y 3))
    ;; Artefacto para los limites
    (of ESQUINA (x 1) (y 1))
    (of ESQUINA (x 10) (y 10))
+   ;; guardamos el camino que recorre
+   ;;(open "camino.log" ?file "w")
 )
 
 ;; Ejercicio 3
 ;; v1.0 Capturamos el robot y la meta con ?x e ?y (TODO quiza haya que hacer test)
+;; v2.0 agregada prioridad para que se ejecute la primera
 ;; REGLA DE FIN
 (defrule condicion-fin
+   (declare (salience 30))
    ?robot <- (object (is-a ROBOT)(x ?x)(y ?y))
    ?meta  <- (object (is-a META)(x ?x)(y ?y))
    =>
+   ;;(close ?file)
+   (printout t "El robot llego a la meta" crlf)
    (halt)
 )
 
@@ -137,13 +145,14 @@
 
 ;; Regla Desplazar
 ;; v1.0 No comprueba objetos intransitables
+;; v2.0 Comprueba intransitables y crea nuevos segun pasa por las casillas para no repetir
 (defrule desplazar
    (declare (salience 20)) ;;si nos podemos mover a la casilla de enfrente nos movemos
    ?robot <- (object (is-a ROBOT)(x ?x)(y ?y)(orientacion ?orientacion))
    ?desp  <- (desplazamiento (orientacion ?orientacion)(dx ?dx)(dy ?dy))
    ;; Controlamos que no se salga del tablero
-   ?esq1 <- (object (is-a ESQUINA)(x ?i)(y ?j))
-   ?esq2 <- (object (is-a ESQUINA)(x ?k)(y ?l))
+   (object (is-a ESQUINA)(x ?i)(y ?j))
+   (object (is-a ESQUINA)(x ?k)(y ?l))
    (test (< ?i ?k))
    (test (< ?j ?l))
    (test (>= (+ ?x ?dx) ?i))
@@ -151,25 +160,36 @@
    (test (>= (+ ?y ?dy) ?j))
    (test (<= (+ ?y ?dy) ?l))
    ;; estamos dentro del tablero
-   ;;(object (is-a INTRANSITABLE)(x ?x1 )(y ?y1))
-   ;;(not (object (is-a INTRANSITABLE)(x ?x2)(y ?y2)))
-   ;;(test (= (+ ?x ?dx) ?x1))
-   ;;(test (= (+ ?y ?dy) ?y1))
+   (not (object (is-a INTRANSITABLE)(x =(+ ?x ?dx))(y =(+ ?y ?dy))))
    =>
    (modify-instance ?robot (x (+ ?x ?dx))(y (+ ?y ?dy)))
+   ;; eureka! si paso por una casilla, esta se hace un muro y no puedo volver a pasar por ella.
+   (make-instance of INTRANSITABLE (x (+ ?x ?dx))(y (+ ?y ?dy)))
+   (printout t (+ ?x ?dx) " ")
+   (printout t (+ ?y ?dy) crlf)
+   ;;(printout ?file (+ ?x ?dx) " ")
+   ;;(printout ?file (+ ?y ?dy) crlf)
 )
 
 ;; Regla girar
+;; v2.0 solo gira a la derecha
 (defrule girar
    (declare (salience 10)) ;; si no nos podemos desplazar a la casilla de enfrente, giramos.
    ?robot <- (object (is-a ROBOT)(x ?x)(y ?y)(orientacion ?inicial))
-   ;; (giro (inicial Norte) (sentido  Derecha) (final Este))
-   ?giro <- (giro (inicial ?inicial)(sentido ?sentido)(final ?final))
+   ;; segun el enunciado solo se puede girar a la Derecha
+   ?giro <- (giro (inicial ?inicial)(sentido Derecha)(final ?final))
    =>
    (modify-instance ?robot (orientacion ?final))
 )
 
+;; Regla para cuando se queda sin poder moverse
+;;(defrule para-ante-bloqueo
+;;   (declare (salience 5)) ;; si no nos podemos desplazar a la casilla de enfrente, giramos.
+;;   =>
+;;   ;;(close ?file)
+;;   (halt)
+;;)
 
 
 (reset)
-(agenda)
+(run)
