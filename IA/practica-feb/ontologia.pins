@@ -1,0 +1,14 @@
+; Wed Oct 28 21:40:05 CET 2009
+; 
+;+ (version "3.4.1")
+;+ (build "Build 537")
+
+([ontologia_Class2] of  JUGADOR
+
+	(SIGUIENTE [ontologia_Class5]))
+
+([ontologia_Class5] of  JUGADOR
+)
+
+([ontologia_Class6] of  JUGADOR
+)
