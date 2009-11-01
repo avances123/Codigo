@@ -1,41 +1,48 @@
-; Wed Oct 28 21:40:05 CET 2009
+; Sat Oct 31 22:38:02 CET 2009
 ; 
 ;+ (version "3.4.1")
 ;+ (build "Build 537")
 
+(deftemplate indicador
+  (slot nombre
+  	(type SYMBOL)
+  	(allowed-values hambre sed suciedad cansancio aburrimiento)
+  	(default ?NONE)
+  )
+  (slot valor
+        (type INTEGER)
+        (default 0)
+; TODO el valor puede ir de 0 a 100
+  )
+)
 
-(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
-	(is-a USER)
-	(role abstract)
-	(single-slot SIGUIENTE
-		(type INSTANCE)
-;+		(allowed-classes JUGADOR)
-;+		(cardinality 0 1)
-		(create-accessor read-write)))
+(deffacts indicadores 
+   (indicador (nombre hambre) (valor 0) )
+   (indicador (nombre sed) (valor 0) )
+   (indicador (nombre suciedad) (valor 0) )
+   (indicador (nombre cansancio) (valor 0) )
+   (indicador (nombre aburrimiento) (valor 0) )
+)
+
+
+
 
 (defclass JUGADOR
 	(is-a USER)
-	(role concrete)
-	(single-slot SIGUIENTE
-		(type INSTANCE)
-;+		(allowed-classes JUGADOR)
-;+		(cardinality 0 1)
-		(create-accessor read-write)))
-
+	(role concrete))
 
 
 
 
 ;+  INSTANCIAS DE LA ONTOLOGIA
 (definstances INSTANCIAS
-	; Wed Oct 28 21:40:05 CET 2009
+	; Sat Oct 31 22:38:03 CET 2009
 	; 
 	;+ (version "3.4.1")
 	;+ (build "Build 537")
 	
 	([ontologia_Class2] of  JUGADOR
-	
-		(SIGUIENTE [ontologia_Class5]))
+	)
 	
 	([ontologia_Class5] of  JUGADOR
 	)
