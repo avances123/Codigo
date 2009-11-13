@@ -1,4 +1,4 @@
-; Sat Oct 31 22:38:03 CET 2009
+; Sun Nov 01 21:53:04 CET 2009
 ; 
 ;+ (version "3.4.1")
 ;+ (build "Build 537")
@@ -20,9 +20,9 @@
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[ontologia_ProjectKB_Class76]
-		[ontologia_ProjectKB_Class77]
-		[ontologia_ProjectKB_Class78]))
+		[ontologia_ProjectKB_Class73]
+		[ontologia_ProjectKB_Class74]
+		[ontologia_ProjectKB_Class75]))
 
 ([CLSES_TAB] of  Widget
 
@@ -163,7 +163,7 @@
 	(name "instances_file_name")
 	(string_value "ontologia.pins"))
 
-([KB_467685_Class0] of  Map
+([KB_786962_Class0] of  Map
 )
 
 ([LAYOUT_PROPERTIES] of  Property_List
@@ -486,20 +486,20 @@
 ([ontologia_ProjectKB_Class72] of  Property_List
 )
 
-([ontologia_ProjectKB_Class76] of  String
+([ontologia_ProjectKB_Class73] of  String
 
 	(name ":INSTANCE-ANNOTATION")
 	(string_value "%3AANNOTATION-TEXT"))
 
-([ontologia_ProjectKB_Class77] of  String
-
-	(name ":PAL-CONSTRAINT")
-	(string_value "%3APAL-NAME"))
-
-([ontologia_ProjectKB_Class78] of  String
+([ontologia_ProjectKB_Class74] of  String
 
 	(name ":META-CLASS")
 	(string_value "%3ANAME"))
+
+([ontologia_ProjectKB_Class75] of  String
+
+	(name ":PAL-CONSTRAINT")
+	(string_value "%3APAL-NAME"))
 
 ([ontologia_ProjectKB_Class8] of  Property_List
 )
@@ -592,8 +592,8 @@
 	(browser_slot_names [BROWSER_SLOT_NAMES])
 	(customized_instance_widgets
 		[INSTANCE_ANNOTATION_FORM_WIDGET]
-		[STANDARD_SLOT_FORM_WIDGET]
 		[STANDARD_FACET_FORM_WIDGET]
+		[STANDARD_SLOT_FORM_WIDGET]
 		[PAL_FORM_WIDGET]
 		[STANDARD_CLASS_FORM_WIDGET])
 	(default_cls_metaclass ":STANDARD-CLASS")
