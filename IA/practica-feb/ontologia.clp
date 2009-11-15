@@ -23,12 +23,19 @@
 	; TODO preferencias para cada uno de los objetos
 )
 
+;; Clase de una casilla
+(defclass POSICION 
+	(is-a INITIAL-OBJECT)
+	(slot x (type INTEGER))
+	(slot y (type INTEGER))
+)
+
 
 (deftemplate CONTROL-TURNO 
 	(slot id-jugador (type INTEGER)) 
 	(slot num-jugadores (type INTEGER))
 )
-(deftemplate REALIZADO-TURNO 
+(deftemplate FIN-TURNO
 	(slot id-jugador (type INTEGER)) 
 )
 ;; ============================================================================
@@ -43,8 +50,6 @@
 ;; turno inicial del jugador 0 y número de jugadores
 (deffacts turno-inicial 
 	;; Hecho para saber a quien le toca
-	(CONTROL-TURNO (id-jugador 0) (num-jugadores 3)) 
-	;; Hecho para iniciar la asignacion de turnos
-	(REALIZADO-TURNO (id-jugador (random 0 3)))
+	(CONTROL-TURNO (id-jugador (random 0 3)) (num-jugadores 3)) 
 )
 
