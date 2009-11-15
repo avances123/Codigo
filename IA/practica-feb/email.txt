@@ -1,0 +1,25 @@
+Hola Fabio, te contesto sobre el código. ;;Elimina esta clase, no sirve para nada
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+(is-a USER)
+(role abstract)
+(single-slot SIGUIENTE
+(type INSTANCE)
+;+ (allowed-classes JUGADOR)
+;+ (cardinality 0 1)
+(create-accessor read-write)))
+;; Fabio, yo crearía un identificador para los jugadores que fuera un valor entero y pondría el control de turno fuera de ellos. ;; No tiene sentido que sean los propios jugadores los que dicen quien es el siguiente (defclass JUGADOR
+(is-a USER)
+(role concrete)
+(slot id (type INTEGER)) )  ;; Plantilla para controlar el turno. Indica el jugador que tiene el turno actualmente y el número total de jugadores (deftemplate CONTROL-TURNO (slot id-jugador (type INTEGER)) (slot num-jugadores (type INTEGER)) )
+
+; Y en las instancias ;; Las mofifico con lo nuevo
+(definstances INSTANCIAS
+; Wed Oct 28 21:40:05 CET 2009
+;
+;+ (version "3.4.1")
+;+ (build "Build 537")
+
+(of JUGADOR (id 0)) (of JUGADOR (id 1)) (of JUGADOR (id 2))
+) ;; turno inicial del jugador 0 y número de jugadores (deffacts turno-inicial (control-turno (id-jugador 0) (num-jugadores 3)) ) ;; regla para cambiar turno (defrule cambiar-turno ;; hay que controlar la prioridad para que solo se ejecute cuando toca, o hacerlo mediante un hecho que indique que el jugador correspondiente ;; ha teminado su turno. Por ejemplo se puede hacer que cada vez que un jugador realiza su turno se cree un hecho realizado-turno ;; El control de turno se hace con el modulo para que sea cíclico ?c <-(control-turno (id-jugador ?id) (num_jugadores ?n)) ?u <-(realizado-turno ?id) => (retract ?u) (modify ?c (id-jugador (mod (+ ?id 1) ?n)))) Espero que te sirva de ayuda. Ten en cuenta que no lo he escrito sobre la marcha, así que probablemente habrá algún error de sintaxis. Saludos, Raquel
+
+

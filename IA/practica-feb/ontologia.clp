@@ -9,6 +9,7 @@
 (defclass JUGADOR
 	(is-a USER)
 	(role concrete) ;o "abstract" si no se va a crear ninguna instancia
+	(slot id (type INTEGER))   ;; Plantilla para controlar el turno. Indica el jugador que tiene el turno actualmente y el número total de jugadores
 	; felicidad
 	; TODO la felicidad va de 0 a +infinito
 	(slot felicidad (type INTEGER)(default 0))
@@ -25,21 +26,23 @@
 )
 
 
+(deftemplate CONTROL-TURNO (slot id-jugador (type INTEGER)) (slot num-jugadores (type INTEGER)) )
 
 
 ;+  INSTANCIAS DE LA ONTOLOGIA
 (definstances INSTANCIAS
-	; Sat Oct 31 22:38:03 CET 2009
-	; 
-	;+ (version "3.4.1")
-	;+ (build "Build 537")
 	
 	([ontologia_Class1] of  JUGADOR
+		(id 0)
 	)
 	
 	([ontologia_Class2] of  JUGADOR
+		(id 2)
 	)
 	
 	([ontologia_Class3] of  JUGADOR
+		(id 2)
 	)
 )
+;; turno inicial del jugador 0 y número de jugadores
+(deffacts turno-inicial (control-turno (id-jugador 0) (num-jugadores 3)) ) ;; regla para cambiar turno 
