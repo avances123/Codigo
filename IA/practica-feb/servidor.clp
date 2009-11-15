@@ -1,3 +1,6 @@
+;; Fichero con las reglas para controlar el juego
+
+
 ;; regla para cambiar turno 
 (defrule cambiar-turno 
 	;; hay que controlar la prioridad para que solo se ejecute cuando toca, o hacerlo mediante un hecho que indique que el jugador correspondiente 
