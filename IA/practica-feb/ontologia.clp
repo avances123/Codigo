@@ -4,8 +4,6 @@
 ; Clase objeto
 ; Clase accion
 
-
-
 (defclass JUGADOR
 	(is-a USER)
 	(role concrete) ;o "abstract" si no se va a crear ninguna instancia
@@ -26,23 +24,27 @@
 )
 
 
-(deftemplate CONTROL-TURNO (slot id-jugador (type INTEGER)) (slot num-jugadores (type INTEGER)) )
-
-
+(deftemplate CONTROL-TURNO 
+	(slot id-jugador (type INTEGER)) 
+	(slot num-jugadores (type INTEGER))
+)
+(deftemplate REALIZADO-TURNO 
+	(slot id-jugador (type INTEGER)) 
+)
+;; ============================================================================
 ;+  INSTANCIAS DE LA ONTOLOGIA
 (definstances INSTANCIAS
 	
-	([ontologia_Class1] of  JUGADOR
-		(id 0)
-	)
-	
-	([ontologia_Class2] of  JUGADOR
-		(id 2)
-	)
-	
-	([ontologia_Class3] of  JUGADOR
-		(id 2)
-	)
+	([ontologia_Class1] of  JUGADOR (id 0))
+	([ontologia_Class2] of  JUGADOR (id 1))
+	([ontologia_Class3] of  JUGADOR (id 2))
+	([ontologia_Class4] of  JUGADOR (id 3))
 )
 ;; turno inicial del jugador 0 y número de jugadores
-(deffacts turno-inicial (control-turno (id-jugador 0) (num-jugadores 3)) ) ;; regla para cambiar turno 
+(deffacts turno-inicial 
+	;; Hecho para saber a quien le toca
+	(CONTROL-TURNO (id-jugador 0) (num-jugadores 3)) 
+	;; Hecho para iniciar la asignacion de turnos
+	(REALIZADO-TURNO (id-jugador (random 0 3)))
+)
+
