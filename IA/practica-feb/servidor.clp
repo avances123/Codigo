@@ -14,7 +14,3 @@
 	(modify ?c (id-jugador (mod (+ ?id 1) ?n)))
 )
 
-(defrule mover-jugador
-	(declare (salience 20))
-
-)
