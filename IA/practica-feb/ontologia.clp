@@ -1,8 +1,8 @@
-; v1.0 Fabio Rueda Carrascosa
+; v1.0 Fabio Rueda Carrascosa 20091119
 
 ; TODO
 ; Clase JUGADOR	v2.0
-; Clase OBJETO	v1.0
+; Clase OBJETO	v2.0
 ; Clase accion
 
 (defclass JUGADOR
@@ -27,6 +27,8 @@
 	; TODO preferencias para cada uno de los objetos
 )
 
+
+; Clase abstacta principal
 (defclass OBJETO
 	;; es un user?
 	(is-a USER)
@@ -36,12 +38,53 @@
 	;; Posicion en la que se encuentra
 	(slot x (type INTEGER)) 
 	(slot y (type INTEGER))  
+	;; Un objeto puede estar ocupado o libre
+	(slot disponible (type BOOLEAN))  
 )
 
-(defclass COMIDA
+; Objetos como ajedrez, ducha, sofa o bocadillo de calamares
+(defclass OBJETO-COMIDA
 	(is-a OBJETO)
 	(role concrete)
+	; owner tiene el id del jugador
 	(slot owner (type INTEGER))
+	(slot nombre (type STRING))
+)
+(defclass OBJETO-BEBIDA
+	(is-a OBJETO)
+	(role concrete)
+	; owner tiene el id del jugador
+	(slot owner (type INTEGER))
+	(slot nombre (type STRING))
+)
+
+
+(defclass OBJETO-DESCANSO
+	(is-a OBJETO)
+	(role concrete)
+	(slot nombre (type STRING))
+)
+
+(defclass OBJETO-ASEO
+	(is-a OBJETO)
+	(role concrete)
+	(slot nombre (type STRING))
+)
+
+(defclass OBJETO-JUEGO
+	(is-a OBJETO)
+	(role concrete)
+	(slot nombre (type STRING))
+)
+
+(defclass ORDENADOR
+	(is-a OBJETO)
+	(role concrete)
+)
+
+(defclass NEVERA
+	(is-a OBJETO)
+	(role concrete)
 )
 
 
@@ -61,7 +104,7 @@
 	([ontologia_Class3] of  JUGADOR (id 2) (x 2) (y 2))
 	([ontologia_Class4] of  JUGADOR (id 3) (x 3) (y 3))
 	;; Objetos
-	([ontologia_Class5] of  COMIDA (id 3) (x 3) (y 3) (owner 0))
+	([ontologia_Class5] of  OBJETO-COMIDA (id 3) (x 3) (y 3) (owner 0))
 )
 ;; turno inicial del jugador 0 y número de jugadores
 (deffacts turno-inicial 

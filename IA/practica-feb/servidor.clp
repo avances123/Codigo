@@ -1,6 +1,16 @@
 ;; Fichero con las reglas para controlar el juego
 
 
+(deftemplate TIPO-JUEGO
+	(slot tipo (type BOOLEAN))
+)
+
+(deftemplate TIEMPO
+	(slot contador (type INTEGER))
+)
+
+
+
 ;; regla para cambiar turno 
 (defrule cambiar-turno 
 	(declare (salience 20))
@@ -13,4 +23,6 @@
 	(retract ?u)
 	(modify ?c (id-jugador (mod (+ ?id 1) ?n)))
 )
+
+
 
