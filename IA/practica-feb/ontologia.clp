@@ -3,7 +3,6 @@
 ; TODO
 ; Clase JUGADOR	v2.0
 ; Clase OBJETO	v2.0
-; Clase accion
 
 (defclass JUGADOR
 	(is-a USER)
@@ -87,6 +86,18 @@
 	(role concrete)
 )
 
+
+(deftemplate PREFERENCIA-OBJETO
+	; el id del personaje , el enunciado habla algo
+	; de grupos de personajes... TODO preguntar
+	(slot personaje (type INTEGER))
+	; el nombre del objeto, se podria poner el id
+	; pero con el nombre conseguimos saber la preferencia
+	; que tiene por el ajedrez, aunque haya 14 tableros.
+	(slot objeto (type STRING))
+	; de 0 a 10
+	(slot preferencia (type INTEGER))
+)
 
 (deftemplate CONTROL-TURNO 
 	(slot id-jugador (type INTEGER)) 
