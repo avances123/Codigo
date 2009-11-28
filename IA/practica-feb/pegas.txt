@@ -1,0 +1,1 @@
+no hace falta diseñar las casillas, solo ponerle id a todo tipo de objeto
