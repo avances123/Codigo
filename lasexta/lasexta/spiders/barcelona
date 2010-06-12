@@ -1,0 +1,1283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="es" lang="es">
+<head>
+		<title>laSexta|Deportes</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="google-site-verification" content="QQfhxGby7CVk-fZL1FFd9Z-7T-uqUxA5rJ9SEqPB1xY" />
+
+
+		<link rel="shortcut icon" href="http://www.lasextadeportes.com/media/img/favicon_futbol.ico" />
+	
+		<link rel="stylesheet" type="text/css" href="http://www.lasextadeportes.com/media/css/modules.php?modules=1000,1001,60,59" media="screen" />
+	<!--[if IE]>
+  	<link rel="stylesheet" type="text/css" href="http://www.lasextadeportes.com/media/css/modules_ie.php?modules=1000,1001,60,59" media="screen" />
+  <![endif]-->
+	<!--[if lt IE 7.]>
+  	<link rel="stylesheet" type="text/css" href="http://www.lasextadeportes.com/media/css/modules_ie6.php?modules=1000,1001,60,59" media="screen" />
+  <![endif]-->
+
+
+	
+	<link rel="stylesheet" type="text/css" href="http://www.lasextadeportes.com/media/css/css_index.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="http://www.lasextadeportes.com/media/css/css_index2.css" media="screen" />
+	<!--[if IE]>
+  	<link rel="stylesheet" type="text/css" href="http://www.lasextadeportes.com/media/css/css_index_ie.css" media="screen" />
+	<![endif]-->
+	<!--[if lt IE 7.]>
+  	<link rel="stylesheet" type="text/css" href="http://www.lasextadeportes.com/media/css/css_index_ie6.css" media="screen" />
+	<![endif]-->
+	
+
+	<!--[if lt IE 7.]>
+		<script defer type="text/javascript" src="http://www.lasextadeportes.com/media/js/unitpngfix.js"></script>
+	<![endif]-->
+
+
+
+	<script type="text/javascript" src="http://www.lasextadeportes.com/media/js/prototype.js"></script>
+	<script type="text/javascript" src="http://www.lasextadeportes.com/media/js/swfobject2.js"></script>
+	<script type="text/javascript" src="http://www.lasextadeportes.com/media/js/mod_utils.js"></script>
+	<script type="text/javascript" src="http://www.lasextadeportes.com/media/js/polls.js"></script>
+
+	<script type="text/javascript" src="http://www.lasextadeportes.com/media/js/protocheck.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="http://www.lasextadeportes.com/media/css/flexcrollstyles.css" media="screen" />
+	<script type="text/javascript" src="http://www.lasextadeportes.com/media/js/flexcroll.js"></script>
+
+	<script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" type="text/javascript"></script>
+
+	<script type="text/javascript">
+	    var GB_ROOT_DIR = "http://www.lasextadeportes.com/media/js/greybox/";
+	</script>
+	<script type="text/javascript" src="http://www.lasextadeportes.com/media/js/greybox/AJS.js"></script>
+	<script type="text/javascript" src="http://www.lasextadeportes.com/media/js/greybox/AJS_fx.js"></script>
+
+	<script type="text/javascript" src="http://www.lasextadeportes.com/media/js/greybox/gb_scripts.js"></script>
+	<link href="http://www.lasextadeportes.com/media/js/greybox/gb_styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="body_equipo" class="body_body_equipo style_futbol futbolsexta_inherit">
+<!-- interstital -->
+<div id="interstitial" style="display: none;">
+    <div id="topinterstitial" class="topinterstitial">
+		<img src="http://www.lasextadeportes.com/media/img/interstitial/bg-topinterstitial-repeat.gif" class="topinterstitial-center" alt="fondo" />
+		<a href="javascript:;" onclick="ocultar_publi();" title="ir a la web">
+			<img class="topinterstitial-left" src="http://www.lasextadeportes.com/media/img/interstitial/bg-topinterstitial-left.gif" />
+		</a>
+		<a href="javascript:;" onclick="ocultar_publi();" title="ir a la web">
+			<img class="topinterstitial-accede" src="http://www.lasextadeportes.com/media/img/interstitial/bg-topinterstitial-right.gif" />
+		</a>
+    </div>
+	
+	<script type="text/javascript">
+	<!-- Hide from old browsers
+	// Modify to reflect site specifics
+	adserver = "http://publis.adbureau.net";
+		target = "/SITE=LASEXTA.COM/AREA=SEXTA.DEPORTES.HOME/POS=1/AAMSZ=INTERSTITIAL";
+	random = Math.round(Math.random() * 100000000);
+	if (!pageNum) var pageNum = Math.round(Math.random() * 100000000);
+	document.write('<scr');
+	document.write('ipt src="' + adserver + '/jserver/acc_random=' + random + target + "/pageid=" + pageNum + '">');
+	document.write('</scr');
+	document.write('ipt>');
+	// End Hide -->
+	</script>
+</div>
+
+
+<div id="cintillol" class="capaseccionl" style="display: none;">
+<img class="textpublicintillol" src="http://www.lasextadeportes.com/media/img/bg_textpublicintillol.gif" alt="" />
+<div class="topcintillol">
+<script type="text/javascript">
+<!-- Hide from old browsers
+// Modify to reflect site specifics
+adserver = "http://publis.adbureau.net";
+target = "/SITE=LASEXTA.COM/AREA=SEXTA.DEPORTES.FUTBOL.EQUIPOBARCELONA/AAMSZ=996X90/pageid=1";
+random = Math.round(Math.random() * 100000000);
+if (!pageNum) var pageNum = Math.round(Math.random() * 100000000);
+document.write('<scr');
+document.write('ipt src="' + adserver + '/jserver/acc_random=' + random + target + "/pageid=" + pageNum + '">');
+document.write('</scr');
+document.write('ipt>'); 
+// End Hide -->
+</script>
+</div>
+</div>
+
+<script type="text/javascript" language="javascript">
+<!-- Hide from old browsers
+/*comprobación de que existe la variable vis, para referenciar en el adcall*/
+if (!INTER) var INTER = '';
+// End Hide -->
+</script>
+<div id="cintilloll" class="capaseccionr"  style="display: none;">
+<div class="rightcintillo">
+<script type="text/javascript">
+<!-- Hide from old browsers
+// Modify to reflect site specifics
+adserver = "http://publis.adbureau.net";
+target = "/SITE=LASEXTA.COM/AREA=SEXTA.DEPORTES.FUTBOL.EQUIPOBARCELONA/AAMSZ=200X800/INTER="+INTER;
+random = Math.round(Math.random() * 100000000);
+if (!pageNum) var pageNum = Math.round(Math.random() * 100000000);
+document.write('<scr');
+document.write('ipt src="' + adserver + '/jserver/acc_random=' + random + target + "/pageid=" + pageNum + '">');
+document.write('</scr');
+document.write('ipt>'); 
+// End Hide -->
+</script>
+</div>
+</div>
+
+
+<div id="publicidadtop_content" style="text-align:center;"> 
+<div id="publicidadtop" style="text-align:center;">
+<span id="patrocinador">
+
+<script type="text/javascript" language="JavaScript">
+<!-- Hide from old browsers
+// Modify to reflect site specifics
+adserver = "http://publis.adbureau.net";
+target = "/SITE=LASEXTA.COM/AREA=SEXTA.DEPORTES.FUTBOL.EQUIPOBARCELONA/POS=1/AAMSZ=728X90";
+
+// Cache-busting and pageid values
+random = Math.round(Math.random() * 100000000);
+if (!pageNum) var pageNum = Math.round(Math.random() * 100000000);
+
+document.write('<scr');
+document.write('ipt src="' + adserver + '/jserver/acc_random=' + random + target + "/pageid=" + pageNum + '">');
+document.write('</scr');
+document.write('ipt>');
+// End Hide -->
+</script>
+<noscript>
+	  <a href="http://publis.adbureau.net/adclick/SITE=LASEXTA.COM/AREA=SEXTA.DEPORTES.FUTBOL.EQUIPOBARCELONA/POS=1/AAMSZ=728X90/pageid=1" target="_blank"><img src="http://publis.adbureau.net/nserver/SITE=LASEXTA.COM/AREA=SEXTA.DEPORTES.FUTBOL.EQUIPOBARCELONA/POS=1/AAMSZ=728X90/pageid=1" border="0" /></a>
+</noscript>
+</span>
+
+<span style="margin-left: 5px;">
+<script type="text/javascript" language="JavaScript">
+<!-- Hide from old browsers
+// Modify to reflect site specifics
+adserver = "http://publis.adbureau.net";
+target = "/SITE=LASEXTA.COM/AREA=SEXTA.DEPORTES.FUTBOL.EQUIPOBARCELONA/POS=1/AAMSZ=230X90";
+
+// Cache-busting and pageid values
+random = Math.round(Math.random() * 100000000);
+if (!pageNum) var pageNum = Math.round(Math.random() * 100000000);
+
+document.write('<scr');
+document.write('ipt src="' + adserver + '/jserver/acc_random=' + random + target + "/pageid=" + pageNum + '">');
+document.write('</scr');
+document.write('ipt>');
+// End Hide -->
+</script>
+<noscript>
+	  <a href="http://publis.adbureau.net/adclick/SITE=LASEXTA.COM/AREA=SEXTA.DEPORTES.FUTBOL.EQUIPOBARCELONA/POS=1/AAMSZ=230X90/pageid=1" target="_blank"><img src="http://publis.adbureau.net/nserver/SITE=LASEXTA.COM/AREA=SEXTA.DEPORTES.FUTBOL.EQUIPOBARCELONA/POS=1/AAMSZ=230X90/pageid=1" border="0" /></a>
+</noscript>
+</span>
+</div>
+</div>
+
+
+<script language="javascript" type="text/javascript">
+<!-- Hide from old browsers
+function publicidadCintilloL(){
+	//if ($('body') && $('body') && $('body').id!=='home'){
+	//comprueba si el body no tiene id:
+	if(!document.body.id)document.body.id='body_publi';
+	//if (document.body &&  document.body.id!=='home'){
+	var idbody=document.body.id;
+	$(idbody).addClassName('body_cintillo_l');
+	
+	//$('home').writeAttribute('class', 'body_cintillo_l');
+	
+	//aplico el alto total de la web
+	Event.observe(window, 'load', daArtura);
+	//}
+}
+
+function daArtura(){
+	//altura la maxima sera la del contenido de la web y el background de la misma 
+	//el color se implementa xq en principio iba a ir a color sólido hasta el final de la pagina
+	var alturaCintilloll = $('background-web').getHeight();
+	$('cintilloll').setStyle({
+		display:'block',
+		backgroundColor:'#fff',
+		height:($('background-web').getHeight()+90)+'px'}
+	);
+}
+
+//VIS=1; //Modo Prueba
+if ((INTER != ''))
+{
+	if ((INTER > 0) && (INTER < 10))
+	{
+		new publicidadCintilloL;
+	}
+	else
+		INTER = '';
+}
+// End Hide -->
+</script>
+
+<div id="background-web">
+  <div id="cabecera-padre" class="width970 programasbottom10">
+    <div id="menusexta" class="iflotadas">
+  <ul id="sextaNavWhite">
+    <li id="item01"><a id="item01_a" class="withpng" href="http://www.lasextadeportes.com/inicio">laSexta|Deportes</a></li>
+    <li id="item02"><a id="item02_a" href="http://www.lasexta.com/inicio">laSexta</a></li>
+    <li id="item03"><a id="item03_a" href="http://www.lasextanoticias.com/inicio">laSexta|Noticias</a></li>
+    <li id="item04"><a id="item04_a" href="http://www.comunidad.lasexta.com">Comunidad laSexta</a></li>
+    <li id="item05"><a id="item05_a" href="http://www.lasexta.com/widgets">laSexta widgets</a></li>
+    <li id="item06"><a id="item06_a" href="http://www.misexta.tv/">miSexta.tv</a></li>
+  </ul>
+</div>
+
+<div class="limpia"></div>    <div id="cabecera_content">
+      <ul id="menu_deportes">
+        <li class="menu_deportes_sd">
+        	<a href="http://www.lasextadeportes.com/" title="laSexta|Deportes">laSexta|Deportes</a>
+        </li>
+        <li class="menu_deportes_formula1">
+        	<a href="http://www.lasextadeportes.com/formula1" title="laSexta|Deportes Formula1">laSexta|Deportes Formula1</a>
+        </li>
+        <li class="menu_deportes_futbol">
+        	<a href="http://www.lasextadeportes.com/futbol" alt="Futbol">F&uacute;tbol</a>
+        </li>
+        <li class="menu_deportes_masd">
+        	<a href="http://www.lasextadeportes.com/mas_deporte" alt="Mas deportes">M&aacute;s deportes</a>
+        </li>
+              </ul>
+      
+    	<div id="conectacomunidad">
+  <div class="form_login_community_relative">
+    <div class="form_login_community" id="form_login_community" style="display: none;">
+      <h5 class="titu_identificate" title="pulse aqu&iacute; para cerrar">
+      	<a onclick="$('form_login_community').hide();">[Cerrar] </a>Identif&iacute;cate
+      </h5>
+      
+      <form method="post" class="" name="form_login" action="http://api.lasexta.com/login">
+        <input type="text" value="Usuario" name="user"/>
+        <input type="password" title="a&ntilde;ada la contrase&ntilde;a" value="password" name="password"/>
+        <input type="image" title="Identificarme" value="enviar" name="enviar" src="http://www.lasextadeportes.com/media/img/bg_login_comunidad_submit.gif" class="image"/>
+        
+        <a class="olvide_cont" href="http://comunidad.lasexta.com/">[Olvid&eacute; mi contrase&ntilde;a]</a>
+      </form>
+    </div>
+  </div>
+
+  <div id="login_comunidad_v2">
+  	    <ul>
+    	<li>
+      	<h1><a onclick="$('form_login_community').show();" href="javascript:;">Identif&iacute;cate</a> o <a href="http://comunidad.lasexta.com/">reg&iacute;strate</a> en la Comunidad de laSexta</h1>
+      </li>
+    </ul>
+      </div>
+</div>
+
+      
+      <a id="autolink" href="http://www.lasextadeportes.com/formula1/inicio" title="F&oacute;rmula 1 | laSexta">F&oacute;rmula 1 | laSexta</a>
+    </div>
+	
+		<div class="limpia"></div>
+  </div>
+  
+  <div class="menu1_content">
+	<ul id="menu1">
+		<li>
+    	<a href="http://www.lasextadeportes.com/futbol/inicio"><b>Inicio</b></a>
+    </li>
+
+    
+
+
+    <li  class="">
+    	<a href="http://www.lasextadeportes.com/futbol/tv"><b>Futbol TV</b></a>
+    </li>
+		<li>
+    	<a href="http://www.lasextadeportes.com/futbol/noticias"><b>Noticias</b></a>
+    </li>
+		<li>
+    	<a href="http://www.lasextadeportes.com/futbol/estadisticas"><b>Rankings</b></a>
+          </li>
+		<li class="current">
+    	<a href="http://www.lasextadeportes.com/futbol/equipo"><b>Equipos</b></a>
+          </li>
+    <li>
+    	<a href="http://www.lasextadeportes.com/futbol/compara_jugadores"><b>Jugadores</b></a>
+         </li>
+		<li>
+    	<a href="http://www.lasextadeportes.com/futbol/calendario"><b>Calendario</b></a>
+         </li>
+			<li>
+    	<a href="http://www.sextamanager.com/" target="_blank"><b>SextaManager</b></a>
+    </li>
+	</ul>
+</div>  
+  
+	<div id="contenido">
+    <div class="contenedorasortables equipo">
+<ul class="listado-escudos">
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/860/almeria" title="Almer&iacute;a" class="escudos_sprite escudo_860"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/1/athletic/club" title="Athletic Club" class="escudos_sprite escudo_1"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/2/at/madrid" title="Atlético de Madrid" class="escudos_sprite escudo_2"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/3/barcelona" title="Barcelona" class="escudos_sprite escudo_3"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/7/deportivo/coruna" title="Deportivo de la Coru&ntilde;a" class="escudos_sprite escudo_4"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/8/espanyol" title="Espanyol" class="escudos_sprite escudo_7"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/218/getafe" title="Getafe" class="escudos_sprite escudo_8"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/133/malaga" title="M&aacute;laga" class="escudos_sprite escudo_218"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/35/mallorca" title="Mallorca" class="escudos_sprite escudo_133"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/140/osasuna" title="Osasuna" class="escudos_sprite escudo_35"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/129/racing/santander" title="Racing de Santander" class="escudos_sprite escudo_135"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/13/real/madrid" title="Real Madrid" class="escudos_sprite escudo_140"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/134/sevilla" title="Sevilla" class="escudos_sprite escudo_129"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/225/sporting/gijon" title="Sporting de Gij&oacute;n" class="escudos_sprite escudo_13"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/19/tenerife" title="Tenerife" class="escudos_sprite escudo_224"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/20/valencia" title="Valencia" class="escudos_sprite escudo_134"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/21/valladolid" title="Valladolid" class="escudos_sprite escudo_225"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/42/villareal" title="Villareal" class="escudos_sprite escudo_20"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/876/xerez" title="Xerez" class="escudos_sprite escudo_21"></a>
+  </li>
+
+  <li >
+    <a href="http://www.lasextadeportes.com/futbol/equipo/detalle/22/zaragoza" title="Real Zaragoza" class="escudos_sprite escudo_42"></a>
+  </li>
+</ul>
+<script type="text/javascript">
+    var GB_ROOT_DIR = "http://www.lasextadeportes.com/media/js/greybox/";
+</script>
+<script type="text/javascript" src="http://www.lasextadeportes.com/media/js/greybox/AJS.js"></script>
+<script type="text/javascript" src="http://www.lasextadeportes.com/media/js/greybox/AJS_fx.js"></script>
+<script type="text/javascript" src="http://www.lasextadeportes.com/media/js/greybox/gb_scripts.js"></script>
+<link href="http://www.lasextadeportes.com/media/js/greybox/gb_styles.css" rel="stylesheet" type="text/css" />
+
+<input type="hidden" id="id_equipo" name="id_equipo" value="3" />
+
+<div id="nuevoequipo" class="cajacabecera cajacabeceraequipo capaseccionl">
+  <div class="preview capaseccionl estirador">
+    <img src="http://www.lasextadeportes.com/media/img/escudos/escudo_3_1.png" alt="Barcelona" />
+  </div><!-- fin Preview -->
+
+  <div class="datos capaseccionl estirador">
+    <h1><label>Barcelona</label></h1>
+    <span class="datos-posicion vercalendar"><a href="http://www.lasextadeportes.com/futbol/calendario/detalle/3/barcelona" class="vercalendar">Ver calendario</a></span>
+    <div class="limpia"></div>
+    <span class="fiftyleft">Presidente: <strong>Joan Laporta</strong></span>
+    <span class="fiftyleft">Entrenador: <strong>Josep Guardiola</strong></span>
+    <span class="nleft2">Estadio: <strong>Nou Camp, 98772 espectadores</strong></span>
+  </div>
+</div>
+
+<div class="pie-cajacabecera">
+  <a href="http://www.lasextadeportes.com/futbol/compara_equipos/3"><img src="http://www.lasextadeportes.com/media/img/btn_compararEquipo.gif" alt="Comparar equipo" width="174" height="32"></a>
+</div>
+<p>&nbsp;</p>
+<div class="grafico">
+	<object height="650" width="170" type="application/x-shockwave-flash" data="http://www.lasextadeportes.com/media/swf/futbol/ChartTeam.swf" id="grafico" style="visibility: visible;"><param name="flashvars" value="id_equipo=3"/></object>
+</div>
+
+<div class="listado-estadisticas capaseccionl">
+  <div id="equipo-coldcha"  class="caja-estadistica capaseccionr">
+  	<object height="360" width="282" type="application/x-shockwave-flash" data="http://www.lasextadeportes.com/media/swf/futbol/WIDGET_FUTBOLSEXTA_WEB.swf" id="flash-mini-calendario" style="visibility: visible;"><param name="flashvars" value="codigo=3"/></object>
+
+	    <ul class="partidos">
+      <li class="title"><h2><label>Partidos</label></h2></li>
+      <li class="minititle totales">
+        <span class="nlleft">Jugados</span>
+        <span class="nlright strong">25</span>
+        <span class="nlright center">Fuera</span>
+        <span class="nlright center">En casa</span>
+      </li>
+      <li>
+        <span class="nlleft">Ganados</span>
+        <span class="nlright strong">19</span>
+        <span class="nlright center">8</span>
+        <span class="nlright center">11</span>
+      </li>
+      <li >
+        <span class="nlleft">Perdidos</span>
+        <span class="nlright strong">1</span>
+        <span class="nlright center">1</span>
+        <span class="nlright center">0</span>
+      </li>
+      <li >
+        <span class="nlleft">Empatados</span>
+        <span class="nlright strong">5</span>
+        <span class="nlright center">4</span>
+        <span class="nlright center">1</span>
+      </li>
+    </ul>
+
+    <ul class="goles">
+      <li class="title"><h2><label>Goles</label></h2></li>
+      <li class="minititle totales">
+        <span class="nlleft">Jugados</span>
+        <span class="nlright strong"></span>
+        <span class="nlright center">De penalti</span>
+        <span class="nlright center">Fuera</span>
+        <span class="nlright center">En casa</span>
+      </li>
+      <li>
+        <span class="nlleft">A favor</span>
+        <span class="nlright strong">61</span>
+        <span class="nlright center">2</span>
+        <span class="nlright center">27</span>
+        <span class="nlright center">34</span>
+      </li>
+      <li>
+        <span class="nlleft">En contra</span>
+        <span class="nlright strong">16</span>
+        <span class="nlright center">1</span>
+        <span class="nlright center">8</span>
+        <span class="nlright center">8</span>
+      </li>
+    </ul>
+
+    <ul>
+      <li class="title"><h2><label>Tarjetas</label></h2></li>
+      <li>
+        <span class="nlleft tamarilla">Amarillas </span>
+        <span class="nlright">47</span>
+      </li>
+      <li>
+        <span class="nlleft troja">Rojas</span>
+        <span class="nlright">4</span>
+      </li>
+    </ul>
+	<div class="limpia"></div>
+  </div>
+
+  <div id="equipo-colizqda" class="caja-estadistica capaseccionl estirador">
+    
+		
+    <div class="caja-peque-gris primero a-der">
+      <div class="caja-peque-gris-top bg-asi-ataca">
+        <div class="titulo"></div>
+      </div>
+      <div class="contenido">
+        <ul class="cajagrande">
+          <li class="item sin-fondo">Promedios</li>
+        </ul>
+        <ul class="cajagrande">
+          <li class="item">Balones perdidos</li>
+          <li class="numero">1764</li>
+          <li class="promedio">70.56</li>
+        </ul>
+        <ul class="cajagrande">
+          <li class="item">Balones recuperados</li>
+          <li class="numero">1366</li>
+          <li class="promedio">54.64</li>
+        </ul>
+        <ul class="cajagrande">
+          <li class="item">Pases buenos</li>
+          <li class="numero">13652</li>
+          <li class="promedio">546.08</li>
+        </ul>
+        <ul class="cajagrande">
+          <li class="item">Pases totales</li>
+          <li class="numero">15902</li>
+          <li class="promedio">636.08</li>
+        </ul>
+        <ul class="cajagrande">
+          <li class="item">Centros &aacute;rea</li>
+          <li class="numero">675</li>
+          <li class="promedio">27</li>
+        </ul>
+        <ul class="cajagrande">
+          <li class="item">Asistencias</li>
+          <li class="numero">261</li>
+          <li class="promedio">10.44</li>
+        </ul>
+        <ul class="cajagrande">
+          <li class="item">Asistencias con gol</li>
+          <li class="numero">45</li>
+          <li class="promedio">1.8</li>
+        </ul>
+        <ul class="cajagrande">
+          <li class="item">Remates</li>
+          <li class="numero">392</li>
+          <li class="promedio">15.68</li>
+        </ul>
+        <ul class="cajagrande">
+          <li class="item">Paradas</li>
+          <li class="numero">53</li>
+          <li class="promedio">2.12</li>
+        </ul>
+        <ul class="cajagrande">
+          <li class="item">Intervenciones del portero</li>
+          <li class="numero">186</li>
+          <li class="promedio">7.44</li>
+        </ul>
+      </div>
+      <div class="caja-peque-gris-bottom"></div>
+    </div>
+  
+	
+    <div class="caja-peque-gris primero a-izq">
+      <div class="caja-peque-gris-top bg-asi-defiende">
+        <div class="titulo"></div>
+      </div>
+      <div class="contenido">
+        <ul class="cajagrande">
+          <li class="item sin-fondo">Promedios</li>
+        </ul>
+        <ul class="cajagrande">
+          <li class="item">Jugadores utilizados</li>
+          <li class="numero">24</li>
+          <li class="promedio">0.96</li>
+        </ul>
+        <ul class="cajagrande">
+          <li class="item">Faltas cometidas</li>
+          <li class="numero">329</li>
+          <li class="promedio">13.16</li>
+        </ul>
+        <ul class="cajagrande">
+          <li class="item">Faltas recibidas</li>
+          <li class="numero">377</li>
+          <li class="promedio">15.08</li>
+        </ul>
+        <ul class="cajagrande">
+          <li class="item">Penaltis a favor</li>
+          <li class="numero">2</li>
+          <li class="promedio">0.08</li>
+        </ul>
+        <ul class="cajagrande">
+          <li class="item">Penaltis en contra</li>
+          <li class="numero">1</li>
+          <li class="promedio">0.04</li>
+        </ul>
+        <ul class="cajagrande">
+          <li class="item">Fuera de juego a favor</li>
+          <li class="numero">75</li>
+          <li class="promedio">3</li>
+        </ul>
+        <ul class="cajagrande">
+          <li class="item">Fuera de juego en contra</li>
+          <li class="numero">77</li>
+          <li class="promedio">3.08</li>
+        </ul>
+      </div>
+      <div class="caja-peque-gris-bottom"></div>
+    </div>
+  </div>
+
+  <div class="limpia"></div>
+  <div class="limpia"></div>
+
+  <div class="caja-estadistica caja-estadistica-jugadores capaseccionl">
+    <ul>
+      <li class="title jugadores"><h2><label>Jugadores</label></h2></li>
+            <li class="minititle totales"><span class="nlleft">Porteros</span></li>
+          </ul>
+  </div>
+
+    <div class="caja-estadistica caja-estadistica-jugadores capaseccionl">
+    <ul class="lista-fotos">
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/6860/victor/valdes">
+          <img src="http://www.lasextadeportes.com/pictures/337753/7B8A6285-5B40-432F-B697-E88F64754288_crop3sub1.jpg" alt="Víctor Valdés" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/6860/victor/valdes">
+          1          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/6860/victor/valdes">
+          Víctor Valdés          </a>
+          </strong>
+          <br />Portero
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/1825/pinto">
+          <img src="http://www.lasextadeportes.com/pictures/336973/ABD464EB-B721-4219-B353-CFB138B37F1C_crop3sub1.jpg" alt="Pinto" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/1825/pinto">
+          13          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/1825/pinto">
+          Pinto          </a>
+          </strong>
+          <br />Portero
+        </span>
+      </li>
+          </ul>
+  </div>
+  
+    <div class="caja-estadistica caja-estadistica-jugadores capaseccionl">
+    <ul>
+      <li class="minititle totales"><span class="nlleft">Defensas</span></li>
+    </ul>
+  </div>
+  
+    <div class="caja-estadistica caja-estadistica-jugadores capaseccionl">
+    <ul class="lista-fotos">
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/18936/dani/alves">
+          <img src="http://www.lasextadeportes.com/pictures/338393/77E0B9A1-5C48-47D0-A0D8-926D035E565C_crop3sub1.jpg" alt="Dani Alves" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/18936/dani/alves">
+          2          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/18936/dani/alves">
+          Dani Alves          </a>
+          </strong>
+          <br />Defensa
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/22416/pique">
+          <img src="http://www.lasextadeportes.com/pictures/339883/ED55FEED-6868-431E-BCBC-9968B26C1D3B_crop3sub1.jpg" alt="Piqué" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/22416/pique">
+          3          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/22416/pique">
+          Piqué          </a>
+          </strong>
+          <br />Defensa
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/3838/marquez">
+          <img src="http://www.lasextadeportes.com/pictures/337313/162B9FE0-77C0-4A46-AAAF-79A089112C70_crop3sub1.jpg" alt="Márquez" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/3838/marquez">
+          4          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/3838/marquez">
+          Márquez          </a>
+          </strong>
+          <br />Defensa
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/2501/puyol">
+          <img src="http://www.lasextadeportes.com/pictures/337213/25920FE6-3A03-4F36-A61E-E761F7B0ED0A_crop3sub1.jpg" alt="Puyol" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/2501/puyol">
+          5          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/2501/puyol">
+          Puyol          </a>
+          </strong>
+          <br />Defensa
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/12988/milito">
+          <img src="http://www.lasextadeportes.com/pictures/337863/F2593551-427D-4799-B527-9BA78A7459CA_crop3sub1.jpg" alt="Milito" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/12988/milito">
+          18          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/12988/milito">
+          Milito          </a>
+          </strong>
+          <br />Defensa
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/15477/maxwell">
+          <img src="http://www.lasextadeportes.com/pictures/340773/887887E7-6E18-4A26-829B-15F95882E068_crop3sub1.jpg" alt="Maxwell" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/15477/maxwell">
+          19          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/15477/maxwell">
+          Maxwell          </a>
+          </strong>
+          <br />Defensa
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/22165/chygrynskiy">
+          <img src="http://www.lasextadeportes.com/pictures/341243/EE27FD38-198C-4D5E-8AE0-CD6E69A2DA88_crop3sub1.jpg" alt="Chygrynskiy" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/22165/chygrynskiy">
+          21          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/22165/chygrynskiy">
+          Chygrynskiy          </a>
+          </strong>
+          <br />Defensa
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/5061/abidal">
+          <img src="http://www.lasextadeportes.com/pictures/337653/93D1A642-1134-4ABE-A4FF-10DAED59DD1A_crop3sub1.jpg" alt="Abidal" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/5061/abidal">
+          22          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/5061/abidal">
+          Abidal          </a>
+          </strong>
+          <br />Defensa
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/33517/bartra">
+          <img src="http://www.lasextadeportes.com/media/img/comodin_3.png" alt="Bartra" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/33517/bartra">
+          40          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/33517/bartra">
+          Bartra          </a>
+          </strong>
+          <br />Defensa
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/34700/dalmau">
+          <img src="http://www.lasextadeportes.com/media/img/comodin_3.png" alt="Dalmau" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/34700/dalmau">
+          42          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/34700/dalmau">
+          Dalmau          </a>
+          </strong>
+          <br />Defensa
+        </span>
+      </li>
+          </ul>
+  </div>
+  
+    <div class="caja-estadistica caja-estadistica-jugadores capaseccionl">
+    <ul>
+      <li class="minititle totales"><span class="nlleft">Centrocampistas</span></li>
+    </ul>
+  </div>
+  
+    <div class="caja-estadistica caja-estadistica-jugadores capaseccionl">
+    <ul class="lista-fotos">
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/2013/xavi">
+          <img src="http://www.lasextadeportes.com/pictures/337013/D0AC8036-BE8D-4956-B408-4AD2DC364CBA_crop3sub1.jpg" alt="Xavi" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/2013/xavi">
+          6          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/2013/xavi">
+          Xavi          </a>
+          </strong>
+          <br />Centrocampista
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/16531/iniesta">
+          <img src="http://www.lasextadeportes.com/pictures/338143/B3FF5A2A-161C-4710-B135-0B0C47C55B98_crop3sub1.jpg" alt="Iniesta" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/16531/iniesta">
+          8          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/16531/iniesta">
+          Iniesta          </a>
+          </strong>
+          <br />Centrocampista
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/13590/keita">
+          <img src="http://www.lasextadeportes.com/pictures/337943/056450FB-7538-4C8E-A07C-C3F0C77F04F8_crop3sub1.jpg" alt="Keita" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/13590/keita">
+          15          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/13590/keita">
+          Keita          </a>
+          </strong>
+          <br />Centrocampista
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/30436/busquets">
+          <img src="http://www.lasextadeportes.com/pictures/340293/898B7787-92D8-4C45-B7EE-3E27D9C87544_crop3sub1.jpg" alt="Busquets" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/30436/busquets">
+          16          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/30436/busquets">
+          Busquets          </a>
+          </strong>
+          <br />Centrocampista
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/29632/pedro">
+          <img src="http://www.lasextadeportes.com/pictures/339493/89D674EB-C711-4A07-94FE-ABE92705338B_crop3sub1.jpg" alt="Pedro" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/29632/pedro">
+          17          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/29632/pedro">
+          Pedro          </a>
+          </strong>
+          <br />Centrocampista
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/15981/toure/yaya">
+          <img src="http://www.lasextadeportes.com/pictures/338083/1E157B0E-2F8D-4812-BFF9-28075E2236B9_crop3sub1.jpg" alt="Touré Yaya" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/15981/toure/yaya">
+          24          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/15981/toure/yaya">
+          Touré Yaya          </a>
+          </strong>
+          <br />Centrocampista
+        </span>
+      </li>
+          </ul>
+  </div>
+  
+    <div class="caja-estadistica caja-estadistica-jugadores capaseccionl">
+    <ul>
+      <li class="minititle totales"><span class="nlleft">Delanteros</span></li>
+    </ul>
+  </div>
+  
+    <div class="caja-estadistica caja-estadistica-jugadores capaseccionl">
+    <ul class="lista-fotos">
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/15474/ibrahimovic">
+          <img src="http://www.lasextadeportes.com/pictures/341163/9C637D29-1164-40EF-83F2-B3136AB15B27_crop3sub1.jpg" alt="Ibrahimovic" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/15474/ibrahimovic">
+          9          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/15474/ibrahimovic">
+          Ibrahimovic          </a>
+          </strong>
+          <br />Delantero
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/22254/messi">
+          <img src="http://www.lasextadeportes.com/pictures/338833/65B26ABD-93A2-4F97-A5EC-EA612ADEC892_crop3sub1.jpg" alt="Messi" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/22254/messi">
+          10          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/22254/messi">
+          Messi          </a>
+          </strong>
+          <br />Delantero
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/27144/bojan">
+          <img src="http://www.lasextadeportes.com/pictures/339353/AAE3F9F1-E6A1-4757-9B76-76146126973C_crop3sub1.jpg" alt="Bojan" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/27144/bojan">
+          11          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/27144/bojan">
+          Bojan          </a>
+          </strong>
+          <br />Delantero
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/5172/henry">
+          <img src="http://www.lasextadeportes.com/pictures/337683/DEC10708-25DC-4209-A423-CF6E5C574A17_crop3sub1.jpg" alt="Henry" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/5172/henry">
+          14          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/5172/henry">
+          Henry          </a>
+          </strong>
+          <br />Delantero
+        </span>
+      </li>
+            <li class="caja-foto">
+        <span class="media">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/26003/jeffren">
+          <img src="http://www.lasextadeportes.com/pictures/340583/D0A2FA43-CED0-4754-8F02-0314FB1C9742_crop3sub1.jpg" alt="Jeffren" width="60" height="60" />
+          </a>
+          <span class="media-blanca"></span>
+        </span>
+        <span class="texto numerito">
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/26003/jeffren">
+          20          </a>
+        </span>
+        <span class="texto">
+          <strong>
+          <a href="http://www.lasextadeportes.com/futbol/jugador/detalle/26003/jeffren">
+          Jeffren          </a>
+          </strong>
+          <br />Delantero
+        </span>
+      </li>
+          </ul>
+  </div>
+  </div>
+
+</div> <!-- fin contenedorasortables equipo -->    
+    <div id="contenido-publicidad" class="contenedorasortables">
+    	<div class=" modulo buscador03 capaseccionl marginbottom withpng" id="module_1000">
+    
+   <form action="http://www.lasextadeportes.com/formula1/busqueda" id="cse-search-box">
+    
+ 	  <div>
+       <input type="hidden" name="cx" value="011912966623612051173:mlds4szhahc" />
+       <input type="hidden" name="cof" value="FORID:10" />
+       <input type="hidden" name="ie" value="UTF-8" />
+	   <input type="text" onclick="this.value = '';" class="input" id="sbi" value="- introduzca las palabras clave -" maxlength="255" size="31" name="q"/> 
+	   <input type="submit" class="button" id="sbb" value="Buscar" name="sa"/>
+      </div>
+	
+	  <div class="iconos_search">
+		        <input type="radio" checked="" class="left" id="ss2" value="lasextadeportes.com" name="sitesearch"/>
+        <label for="enlasexta"><img alt="laSextaDeportes" src="http://www.lasextadeportes.com/media/img/lasextadeportes_buscador.gif"/></label>
+        <input type="radio" class="left" id="ss0" value="" name="sitesearch"/>
+        <label for="engoogle"><img alt="powered by Google" src="http://www.lasextadeportes.com/media/img/google_buscador.gif"/></label>
+		      </div>	
+	
+	</form>
+
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=es"></script>
+
+
+	
+  <!--  <form action="busqueda" method="get">
+      <input type="hidden" value="pub-7429004167249197" name="client"/>
+      <input type="hidden" value="1" name="forid"/>
+      <input type="hidden" value="ISO-8859-1" name="ie"/>
+      <input type="hidden" value="ISO-8859-1" name="oe"/>
+      <input type="hidden" value="active" name="safe"/>
+      <input type="hidden" value="GALT:#666666;GL:1;DIV:#FFFFFF;VLC:3cb400;AH:center;BGC:FFFFFF;LBGC:336699;ALC:3cb400;LC:3cb400;T:666666;GFNT:3cb400;GIMP:3cb400;FORID:11" name="cof"/>
+      <input type="hidden" value="es" name="hl"/>
+      <input type="hidden" value="lasexta.com" name="domains"/>
+      <input type="text" onclick="this.value = '';" class="input" id="sbi" value="- introduzca las palabras clave -" maxlength="255" size="31" name="q"/> 
+      <input type="submit" class="button" id="sbb" value="Buscar" name="sa"/>
+      <div class="iconos_search">
+		        <input type="radio" checked="" class="left" id="ss2" value="lasexta.com" name="sitesearch"/>
+        <label for="enlasexta"><img alt="laSexta" src="http://www.lasextadeportes.com/media/img/lasextadeportes_buscador.gif"/></label>
+        <input type="radio" class="left" id="ss0" value="" name="sitesearch"/>
+        <label for="engoogle"><img alt="powered by Google" src="http://www.lasextadeportes.com/media/img/google_buscador.gif"/></label>
+		      </div>
+    </form>-->
+	
+	
+	
+	
+<!--<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=es"></script>-->
+
+
+
+</div><div class=" modulo" id="module_1001">
+	<div class="capaseccionl publicidad_banner_right withpng">
+		<span class="span_content"><script type="text/javascript">
+			<!-- Hide from old browsers
+			// Modify to reflect site specifics
+			if (!INTER) var INTER="";
+			adserver = "http://publis.adbureau.net";
+			target = "/SITE=LASEXTA.COM/AREA=SEXTA.DEPORTES.FUTBOL.EQUIPOBARCELONA/POS=1/AAMSZ=300X250";
+			
+			// Cache-busting and pageid values
+			random = Math.round(Math.random() * 100000000);
+			if (!pageNum) var pageNum = Math.round(Math.random() * 100000000);
+			
+			document.write('<scr');
+			document.write('ipt src="' + adserver + '/jserver/acc_random=' + random + target + "/INTER=" + INTER + "/pageid=" + pageNum + '">');
+			document.write('</scr');
+			document.write('ipt>');
+			// End Hide -->
+		</script>
+		<noscript>
+    				<a href="http://publis.adbureau.net/adclick/SITE=LASEXTA.COM/AREA=SEXTA.DEPORTES.FUTBOL.EQUIPOBARCELONA/POS=1/AAMSZ=300X250/pageid=1" target="_blank"><img src="http://publis.adbureau.net/nserver/SITE=LASEXTA.COM/AREA=SEXTA.DEPORTES.FUTBOL.EQUIPOBARCELONA/POS=1/AAMSZ=300X250/pageid=1" border="0" /></a>
+		</noscript>
+		</span>
+	
+		<p class="pie">Publicidad</p>
+		<div class="limpia"></div>
+	</div>
+</div><div class=" modulo futbol_proximos_directos modulo_cargando proximos_directos" id="module_60">
+	<div class="modulotit">
+    <h1>Pr&oacute;ximos directos</h1>
+	</div>
+  
+	<div class="linkes">
+  	<a onclick="futbol_proximos_directos();" href="javascript:;" id="pd_futbol" class="">Todos los directos</a>
+		<a onclick="futbol_partidos_enjuego();" href="javascript:;" id="pd_enjuego" class="">Partidos en juego</a>
+	</div>
+  
+	<div class="limpia"></div>
+	
+	<div id="lppartidos" class="flexcroll">
+		<div class="ppartido" id="futbol_proximos_directos_content">
+			<div class="cargando imgcargando"></div>
+		</div>
+	</div>
+	
+  <h2 class="capaseccionl modulobottom">Border redondo bottom</h2>
+</div>
+<script type="text/javascript" src="http://www.lasextadeportes.com/media/js/ajax_futbolsexta.js"></script>
+<script language="javascript">
+	Event.observe(window, 'load', function initializeProximosDirectosEvents_60() {
+		futbol_proximos_directos();
+		futbol_comprobar_directos();
+	});
+</script>
+<div class=" modulo flash2" id="module_59">
+	<span id="contenedor_59"></span>
+	<script type="text/javascript">
+		var flashvars = {};
+		var params = {'wmode':'transparent'};
+		
+		swfobject.embedSWF("http://www.lasextadeportes.com/media/swf/futbol/marcador_clasif.swf", 
+											 "contenedor_59", 
+											 "320", 
+											 "562", 
+											 "9.0.0",
+											 "expressInstall.swf", 
+											 flashvars,
+											 params);
+  </script>
+</div>
+    </div>
+    
+				
+    <div class="limpia">&nbsp;</div>
+	</div>
+  
+	<div class="limpia">&nbsp;</div>  
+</div>
+
+<div id="contenedor-pie">
+	
+<div class="limpia"></div>
+
+<div id="pie">
+	<a href="http://www.lasexta.com/" title="laSexta.com"><img alt="laSexta" src="http://www.lasextadeportes.com/media/img/lasextapie.gif" id="logopie"/></a>
+
+	<ul>
+		<li><a href="http://www.lasexta.com/contacto">Contacto</a></li>
+		<li><a href="http://www.lasexta.com/concursos">Concursos</a></li>
+		<li><a href="http://www.lasexta.com/avisolegal">Aviso Legal</a></li>
+		<li><a href="http://www.lasexta.com/notasprensa">Notas de prensa</a></li>
+		<li><a href="http://www.lasexta.com/recursoshumanos">RRHH</a></li>
+		<li><a href="mailto:infopubliseis@publiseis.com">Anúnciate</a></li>
+	</ul>
+
+	<p id="antenizate"><a href="http://www.lasexta.com/antenizacion" title="Antenizate">Antenizate</a></p>
+
+	<p id="powered"><a href="http://www.generanet.com/" title="Powered by ECO v9.0" target="_blank">Powered by ECO v9.0</a></p>
+</div></div>
+
+<!-- START Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-3483892-32");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- END Google Analytics -->
+
+<!-- START Nielsen//NetRatings SiteCensus V5.3 -->
+<!-- COPYRIGHT 2007 Nielsen//NetRatings -->
+<script type="text/javascript">
+	var _rsCI="es-lasexta";
+	var _rsCG="0";
+	var _rsDN="//secure-uk.imrworldwide.com/";
+	</script>
+<script type="text/javascript" src="//secure-uk.imrworldwide.com/v53.js"></script>
+<noscript>
+	<div><img src="//secure-uk.imrworldwide.com/cgi-bin/m?ci=es-lasexta&amp;cg=0&amp;cc=1" alt=""/></div>
+</noscript>
+<!-- END Nielsen//NetRatings SiteCensus V5.3 -->
+<script type="text/javascript" src="http://www.lasextadeportes.com/media/js/equipo.js"></script></body>
+</html>
