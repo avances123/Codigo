@@ -41,7 +41,7 @@
 	(slot x (type INTEGER)) 
 	(slot y (type INTEGER))  
 	;; Un objeto puede estar ocupado o libre
-	;;(slot disponible (type BOOLEAN))  
+	(slot disponible (type SYMBOL) (allowed-values si no)(default si))  
 )
 
 ; Objetos como ajedrez, ducha, sofa o bocadillo de calamares

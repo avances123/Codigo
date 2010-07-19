@@ -2,7 +2,7 @@
 
 
 (deftemplate TIPO-JUEGO
-	;;(slot tipo (type BOOLEAN))
+	(slot tipo (type SYMBOL))
 )
 
 (deftemplate TIEMPO
