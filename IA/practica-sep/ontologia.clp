@@ -123,6 +123,14 @@
 ;; turno inicial del jugador 0 y número de jugadores
 (deffacts turno-inicial 
 	;; Hecho para saber a quien le toca
-	(CONTROL-TURNO (id-jugador (random 0 3)) (num-jugadores 3)) 
+	(CONTROL-TURNO (id-jugador (random 0 3)) (num-jugadores 3))
 )
 
+
+;; facts que contienen las preferencias por los objetos de los personajes
+(deffacts preferencias-objetos
+	(PREFERENCIA-OBJETO (personaje 0) (objeto "ajedrez") (preferencia 5)) 
+	(PREFERENCIA-OBJETO (personaje 1) (objeto "ajedrez") (preferencia 4)) 
+	(PREFERENCIA-OBJETO (personaje 2) (objeto "ajedrez") (preferencia 6)) 
+	(PREFERENCIA-OBJETO (personaje 3) (objeto "ajedrez") (preferencia 7)) 
+)
