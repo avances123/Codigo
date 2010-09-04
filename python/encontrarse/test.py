@@ -37,6 +37,29 @@ def escribeEnDB(conn,tipo,a_movimientos,b_movimientos,exito):
     	cur.execute(statement) 
     except Exception, e:
         print e.pgerror
+    conn.commit()
+
+def testDosMoviendose(conn,limite):
+    tipo='0Quieto'
+    # Situamos a los individuos inicialmente
+    a=Individuo()
+    b=Individuo()
+ 
+    # Bucle de busqueda
+    exito=False
+    while (not exito):
+	a.moverACualquiera()
+	if a.movimientos >= limite:
+	    break
+	b.moverACualquiera()
+	if b.movimientos >= limite:
+	    break
+
+	if (a.x == b.x and a.y == b.y):  # Si estan en la misma casilla... exito
+	    exito=True
+
+    escribeEnDB(conn,tipo,a.movimientos,b.movimientos,exito)
+
 
 
 def testUnoQuieto(conn,limite):
@@ -56,7 +79,6 @@ def testUnoQuieto(conn,limite):
 	    exito=True
 
     escribeEnDB(conn,tipo,a.movimientos,b.movimientos,exito)
-    conn.commit()
 
 
 if __name__ == "__main__":
@@ -79,7 +101,9 @@ if __name__ == "__main__":
     # TODO hacerla global
     conn=conectaADB()
     for i in range(10000):
-    	testUnoQuieto(conn,300000)
+    	#testUnoQuieto(conn,300000)
+	print i
+    	testDosMoviendose(conn,300000)
 
     
 
