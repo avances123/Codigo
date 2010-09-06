@@ -3,12 +3,8 @@ import sys
 import getopt
 import psycopg2
 import random
-from individuo import Individuo
+from individuo import Individuo,Tablero
 
-def escribeEnFichero():
-    logfile = open('test.csv', 'a')
-    logfile.write('line 2')
-    logfile.close()
 
 def conectaADB():
     # Conectamos a la base de datos
@@ -39,6 +35,71 @@ def escribeEnDB(conn,tipo,a_movimientos,b_movimientos,exito):
         print e.pgerror
     conn.commit()
 
+def test6(conn,limite):
+    """
+    Test movimiento aleatorio total con dos individuos moviendose con memoria
+    """
+    tipo='test6'
+    # Situamos a los individuos inicialmente
+    a=Individuo(random.randrange(1,borde),random.randrange(1,borde),borde)
+    b=Individuo(random.randrange(1,borde),random.randrange(1,borde),borde)
+ 
+    t1=Tablero()
+    t2=Tablero()
+
+    # Bucle de busqueda
+    exito=False
+    while (exito == False):
+
+        a.x,a.y = t1.dameCasilla()
+        b.x,b.y = t2.dameCasilla()
+
+	if a.x == -1 or b.x == -1:
+	    break        
+
+        a.movimientos += 1
+        b.movimientos += 1
+
+	if a.movimientos >= limite:
+	    break
+	if b.movimientos >= limite:
+	    break
+
+	if (a.x == b.x and a.y == b.y):  # Si estan en la misma casilla... exito
+	    exito=True
+
+    print tipo,':',a.movimientos
+    escribeEnDB(conn,tipo,a.movimientos,b.movimientos,exito)
+
+
+
+
+def test5(conn,limite):
+    """
+    Test movimiento aleatorio total con un individuo quieto con memoria
+    """
+    tipo='test5'
+    # Situamos a los individuos inicialmente
+    a=Individuo(random.randrange(1,borde),random.randrange(1,borde),borde)
+    b=Individuo(random.randrange(1,borde),random.randrange(1,borde),borde)
+ 
+    t=Tablero()
+
+    # Bucle de busqueda
+    exito=False
+    while (exito == False):
+        a.x,a.y = t.dameCasilla()
+        a.movimientos += 1
+
+	if a.movimientos >= limite:
+	    break
+	if (a.x == b.x and a.y == b.y):  # Si estan en la misma casilla... exito
+	    exito=True
+
+    print tipo,':',a.movimientos
+    escribeEnDB(conn,tipo,a.movimientos,b.movimientos,exito)
+
+
 
 def test4(conn,limite):
     """
@@ -62,6 +123,8 @@ def test4(conn,limite):
 	if (a.x == b.x and a.y == b.y):  # Si estan en la misma casilla... exito
 	    exito=True
 
+    if exito == False:
+        print "Fracaso en test4"
     escribeEnDB(conn,tipo,a.movimientos,b.movimientos,exito)
 
 
@@ -140,6 +203,7 @@ def usage():
     print "-n --numsims\tEspecifica el numero de simulaciones que se hara de cada test"
     print "-m --maxmovs\tEspecifica el numero maximo de movimientos que pueden hacer los individuos"
 
+
 if __name__ == "__main__":
     # Variables por defecto de la ejecucion
     borde=100
@@ -164,14 +228,27 @@ if __name__ == "__main__":
             maxmovs = arg     
 
 
-    # TODO hacerla global
+#    t=Tablero()
+#    x,y = t.dameCasilla()
+#    print x,y
+#    sys.exit()
+
     conn=conectaADB()
     for i in range(numsims):
 	print i
+<<<<<<< HEAD
     	test1(conn,maxmovs)
     	test2(conn,maxmovs)
     	test3(conn,maxmovs)
     	test4(conn,maxmovs)
+=======
+    	#test1(conn,40000)
+    	#test2(conn,40000)
+    	#test3(conn,40000)
+    	#test4(conn,40000)
+    	test5(conn,10500)
+    	test6(conn,10500)
+>>>>>>> 28986b48ececa03b95fd0f81f0650bf709d8880a
 
 
     

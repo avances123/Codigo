@@ -2,6 +2,22 @@
 
 import random
 
+class Tablero:
+
+
+    def __init__(self,borde=100):
+    	self.casillas = []
+        for i in range(borde):
+            for j in range(borde):
+                self.casillas.append([i,j])
+
+    def dameCasilla(self):
+        if len(self.casillas) == 0:
+	    return [-1,-1]
+        casilla = random.choice(self.casillas)
+        self.casillas.remove(casilla)
+        return casilla
+
 class Individuo:
 
     def moverAContigua(self):
@@ -18,6 +34,10 @@ class Individuo:
         self.y += incy
         self.movimientos += 1
 
+
+    def moverACualquieraNoInc(self):
+        self.x=random.randrange(1,self.borde)   
+        self.y=random.randrange(1,self.borde)   
 
 
     def moverACualquiera(self):
