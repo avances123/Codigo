@@ -134,19 +134,44 @@ def test1(conn,limite):
 
     escribeEnDB(conn,tipo,a.movimientos,b.movimientos,exito)
 
+def usage():
+    print "-h --help\tMuestra esta pantalla"
+    print "-b --borde\tEspecifica el numero de casillas de lado para el tablero"
+    print "-n --numsims\tEspecifica el numero de simulaciones que se hara de cada test"
+    print "-m --maxmovs\tEspecifica el numero maximo de movimientos que pueden hacer los individuos"
 
 if __name__ == "__main__":
-    # Limite del tablero
+    # Variables por defecto de la ejecucion
     borde=100
+    numsims=10000
+    maxmovs=20000
+
+    # Procesamos los parametros de entrada
+    try:                                
+        opts, args = getopt.getopt(sys.argv[1:], "hb:n:m:", ["help", "borde=","numsims=","maxmovs="])
+    except getopt.GetoptError:          
+        usage()                         
+        sys.exit(2)      
+    for opt, arg in opts:                
+        if opt in ("-h", "--help"):      
+            usage()                     
+            sys.exit()              
+        elif opt == ('-b', "--borde"):                
+            borde = int(arg)              
+        elif opt in ("-n", "--numsims"): 
+            numsims = int(arg)     
+        elif opt in ("-m", "--maxmovs"): 
+            maxmovs = arg     
+
 
     # TODO hacerla global
     conn=conectaADB()
-    for i in range(10000):
+    for i in range(numsims):
 	print i
-    	test1(conn,20000)
-    	test2(conn,20000)
-    	test3(conn,20000)
-    	test4(conn,20000)
+    	test1(conn,maxmovs)
+    	test2(conn,maxmovs)
+    	test3(conn,maxmovs)
+    	test4(conn,maxmovs)
 
 
     
