@@ -62,6 +62,8 @@ def test4(conn,limite):
 	if (a.x == b.x and a.y == b.y):  # Si estan en la misma casilla... exito
 	    exito=True
 
+    if exito == False:
+        print "Fracaso en test4"
     escribeEnDB(conn,tipo,a.movimientos,b.movimientos,exito)
 
 
@@ -141,12 +143,12 @@ if __name__ == "__main__":
 
     # TODO hacerla global
     conn=conectaADB()
-    for i in range(10000):
+    for i in range(40000):
 	print i
-    	test1(conn,20000)
-    	test2(conn,20000)
-    	test3(conn,20000)
-    	test4(conn,20000)
+    	test1(conn,30000)
+    	test2(conn,30000)
+    	test3(conn,30000)
+    	test4(conn,30000)
 
 
     
