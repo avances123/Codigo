@@ -236,19 +236,12 @@ if __name__ == "__main__":
     conn=conectaADB()
     for i in range(numsims):
 	print i
-<<<<<<< HEAD
     	test1(conn,maxmovs)
     	test2(conn,maxmovs)
     	test3(conn,maxmovs)
     	test4(conn,maxmovs)
-=======
-    	#test1(conn,40000)
-    	#test2(conn,40000)
-    	#test3(conn,40000)
-    	#test4(conn,40000)
-    	test5(conn,10500)
-    	test6(conn,10500)
->>>>>>> 28986b48ececa03b95fd0f81f0650bf709d8880a
+    	test5(conn,maxmovs)
+    	test6(conn,maxmovs)
 
 
     
