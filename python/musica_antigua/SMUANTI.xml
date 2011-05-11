@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+<title>Música antigua</title>
+<atom:link href="http://www.rtve.es/podcast/radio-clasica/musica-antigua/SMUANTI.xml" rel="self" type="application/rss+xml"/>
+<link>http://www.rtve.es/podcast/radio-clasica/musica-antigua/</link>
+<xhtml:meta name="robots" content="noindex" xmlns:xhtml="http://www.w3.org/1999/xhtml"/>
+<language>es</language>
+<description>Con Música Antigua pretendemos mostrar la inmensa riqueza de los cerca de diez siglos de música (desde el siglo VIII al XVIII) que no es muy frecuente escuchar. La música de la Edad Media como la del Renacimiento y del primer Barroco es extraordinariamente variada y atractiva. Por ello los programas son muy diferentes uno del otro. Además cada día dedicamos el programa a un tema (La muerte, los pájaros, Venecia, el Amor, los madrigales¿), así que es un reto encontrar músicas referente a esos temas y que cumplan los niveles de indiscutible calidad musical e interpretativa, condición indispensable para ser incluida</description>
+<itunes:summary>Con Música Antigua pretendemos mostrar la inmensa riqueza de los cerca de diez siglos de música (desde el siglo VIII al XVIII) que no es muy frecuente escuchar. La música de la Edad Media como la del Renacimiento y del primer Barroco es extraordinariamente variada y atractiva. Por ello los programas son muy diferentes uno del otro. Además cada día dedicamos el programa a un tema (La muerte, los pájaros, Venecia, el Amor, los madrigales¿), así que es un reto encontrar músicas referente a esos temas y que cumplan los niveles de indiscutible calidad musical e interpretativa, condición indispensable para ser incluida</itunes:summary>
+<itunes:author>Radio Clásica (RNE)
+		</itunes:author>
+<itunes:owner>
+<itunes:name>Radio Clásica (RNE)
+		</itunes:name>
+<itunes:email>beta@rtve.es</itunes:email>
+</itunes:owner>
+<itunes:image href="http://www.rtve.es/css/i/mediateca/podcast_img.jpg"/>
+<image>
+<url>http://www.rtve.es/css/i/mediateca/podcast_img.jpg</url>
+<title>Música antigua</title>
+<link>http://www.rtve.es/podcast/radio-clasica/musica-antigua/</link>
+<height>144</height>
+<width>144</width>
+</image>
+<item>
+<title>Música antigua - Tempus transit gelidum - 06/05/11</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/5/5/1304678692455.mp3" length="3523554" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/5/5/1304678692455.mp3</link>
+<description>&lt;P&gt;Así, con esta inmersión en la naturaleza hemos comenzado este programa de hoy que vamos a dedicar al mundo primaveral, con sus cantos de pájaros, sus flores y toda esa vida que despierta en estos días bajo una luz especial. Y os mostraremos diversas flores musicales de esta primavera radiante que ya adorna nuestros campos, escuchando cantos de algunas aves así como músicas de Machaut, Lejeune, Janequin, Guerrero, Vivaldi y hasta de Beethoven.&lt;/P&gt;&lt;P&gt;&lt;/P&gt;&lt;P&gt;&lt;/P&gt;&lt;P&gt;&lt;/P&gt;&lt;P&gt; &lt;/P&gt;&lt;P&gt;&lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Así, con esta inmersión en la naturaleza hemos comenzado este programa de hoy que vamos a dedicar al mundo primaveral, con sus cantos de pájaros, sus flores y toda esa vida que despierta en estos días bajo una luz especial. Y os mostraremos diversas flores musicales de esta primavera radiante que ya adorna nuestros campos, escuchando cantos de algunas aves así como músicas de Machaut, Lejeune, Janequin, Guerrero, Vivaldi y hasta de Beethoven.&lt;/P&gt;&lt;P&gt;&lt;/P&gt;&lt;P&gt;&lt;/P&gt;&lt;P&gt;&lt;/P&gt;&lt;P&gt; &lt;/P&gt;&lt;P&gt;&lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>00:58:43</itunes:duration>
+<pubDate>Fri, 06 May 2011 11:00:00 +0200</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/5/5/1304678692455.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Música para la Reforma, II - 29/04/11</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/8/6/1304073263468.mp3" length="3654166" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/8/6/1304073263468.mp3</link>
+<description>&lt;P&gt;Con el coral final de la cantata nº39 de Johann Sebastián Bach comenzamos nuestro tiempo de hoy en el que volveremos a escuchar música vinculada a la Iglesia de la Reforma. Y será con un programa en el que la música de Bach, dos de sus corales para órgano y su cantata BWV 39, Parte tu pan con el hambriento, será el plato principal, aunque también tendremos obras de Lutero, Johann Walter, Claude Goudimel y Eustache du Caurroy.&lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Con el coral final de la cantata nº39 de Johann Sebastián Bach comenzamos nuestro tiempo de hoy en el que volveremos a escuchar música vinculada a la Iglesia de la Reforma. Y será con un programa en el que la música de Bach, dos de sus corales para órgano y su cantata BWV 39, Parte tu pan con el hambriento, será el plato principal, aunque también tendremos obras de Lutero, Johann Walter, Claude Goudimel y Eustache du Caurroy.&lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>01:00:54</itunes:duration>
+<pubDate>Fri, 29 Apr 2011 11:00:00 +0200</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/8/6/1304073263468.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Passio Domini Nostri - 22/04/11</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/3/1/1303469902113.mp3" length="3428730" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/3/1/1303469902113.mp3</link>
+<description>&lt;P&gt; Hoy tendremos algunas de las manifestaciones musicales nacidas en torno&lt;/P&gt;&lt;P&gt;a los días de la semana santa, un periodo del calendario cristiano en el&lt;/P&gt;&lt;P&gt;que a lo largo de los siglos, católicos, ortodoxos o luteranos, han&lt;/P&gt;&lt;P&gt;buscado embellecer con música todos sus ritos religiosos. Y vamos a&lt;/P&gt;&lt;P&gt;comprobarlo escuchando obras de Josquin, de Cipriano de Rore, de&lt;/P&gt;&lt;P&gt;Giovanni Felice Sances, Antonio Vivaldi y Johann Sebastian Bach. &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt; Hoy tendremos algunas de las manifestaciones musicales nacidas en torno&lt;/P&gt;&lt;P&gt;a los días de la semana santa, un periodo del calendario cristiano en el&lt;/P&gt;&lt;P&gt;que a lo largo de los siglos, católicos, ortodoxos o luteranos, han&lt;/P&gt;&lt;P&gt;buscado embellecer con música todos sus ritos religiosos. Y vamos a&lt;/P&gt;&lt;P&gt;comprobarlo escuchando obras de Josquin, de Cipriano de Rore, de&lt;/P&gt;&lt;P&gt;Giovanni Felice Sances, Antonio Vivaldi y Johann Sebastian Bach. &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>00:57:08</itunes:duration>
+<pubDate>Fri, 22 Apr 2011 11:00:00 +0200</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/3/1/1303469902113.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Música de la Reforma - 15/04/11</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/2/5/1302875523552.mp3" length="3781200" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/2/5/1302875523552.mp3</link>
+<description>&lt;P&gt;Cuando el 31 de octubre de 1517, Martín Lutero dejaba clavadas en la puerta de la iglesia del castillo de Wittenberg sus 95 tesis de discusión sobre las indulgencias de la Iglesia católica, se iniciaba el movimiento de la Reforma que acabaría dividiendo a toda la cristiandad y que provocaría terribles confrontaciones.&lt;/P&gt;&lt;P&gt;Hoy tendremos un programa dedicado a la música de la Iglesia luterana. Y será con obras de Martín Lutero, Michael Praetorius, Samuel Scheidt, Johann Walter, Hans Leo Hassler y Johann Sebastian Bach.&lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Cuando el 31 de octubre de 1517, Martín Lutero dejaba clavadas en la puerta de la iglesia del castillo de Wittenberg sus 95 tesis de discusión sobre las indulgencias de la Iglesia católica, se iniciaba el movimiento de la Reforma que acabaría dividiendo a toda la cristiandad y que provocaría terribles confrontaciones.&lt;/P&gt;&lt;P&gt;Hoy tendremos un programa dedicado a la música de la Iglesia luterana. Y será con obras de Martín Lutero, Michael Praetorius, Samuel Scheidt, Johann Walter, Hans Leo Hassler y Johann Sebastian Bach.&lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>01:03:01</itunes:duration>
+<pubDate>Fri, 15 Apr 2011 11:00:00 +0200</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/2/5/1302875523552.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Edición, 1611 - 08/04/11</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/8/1/1302258392618.mp3" length="3630891" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/8/1/1302258392618.mp3</link>
+<description>&lt;P&gt;En el programa de hoy vamos a escuchar obras que fueron publicadas en libros y colecciones que vieron la luz hace exactamente cuatrocientos años, es decir en 1611. Así tendremos música de Schuetz, Morley, Gesualdo, Ravenscroft, Kapsberger y Praetorius.&lt;/P&gt;&lt;P&gt;&lt;/P&gt;&lt;P&gt;&lt;/P&gt;&lt;P&gt; &lt;/P&gt;&lt;P&gt;&lt;/P&gt;&lt;P&gt; &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;En el programa de hoy vamos a escuchar obras que fueron publicadas en libros y colecciones que vieron la luz hace exactamente cuatrocientos años, es decir en 1611. Así tendremos música de Schuetz, Morley, Gesualdo, Ravenscroft, Kapsberger y Praetorius.&lt;/P&gt;&lt;P&gt;&lt;/P&gt;&lt;P&gt;&lt;/P&gt;&lt;P&gt; &lt;/P&gt;&lt;P&gt;&lt;/P&gt;&lt;P&gt; &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>01:00:30</itunes:duration>
+<pubDate>Fri, 08 Apr 2011 11:00:00 +0200</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/8/1/1302258392618.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Los trovadores - 01/04/11</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/0/7/1301654338470.mp3" length="3662317" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/0/7/1301654338470.mp3</link>
+<description>&lt;P&gt;Hoy dedicamos nuestro programa a escuchar las músicas de los trovadores y troveros, tanto hombres como mujeres, que cultivaron entre los siglos XII y XIV el género de la canción. En el recorrido que hoy hacemos nos acompañan las composiciones de Guiraut de Bornelh, Ricardo Corazón de León, Beatriz de Dia o Conon de Béthune, entre otros. &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Hoy dedicamos nuestro programa a escuchar las músicas de los trovadores y troveros, tanto hombres como mujeres, que cultivaron entre los siglos XII y XIV el género de la canción. En el recorrido que hoy hacemos nos acompañan las composiciones de Guiraut de Bornelh, Ricardo Corazón de León, Beatriz de Dia o Conon de Béthune, entre otros. &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>01:01:02</itunes:duration>
+<pubDate>Fri, 01 Apr 2011 11:00:00 +0200</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/0/7/1301654338470.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Cristóbal de Morales - 25/03/11</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/8/5/1301054506358.mp3" length="3630108" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/8/5/1301054506358.mp3</link>
+<description>&lt;P&gt;Hoy tendremos un programa dedicado por entero a Cristóbal de Morales. En concreto escucharemos una de sus misas, la célebre "Misa Mille regretz" compuesta sobre la canción profana, "Mille regretz" de Josquin. &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Hoy tendremos un programa dedicado por entero a Cristóbal de Morales. En concreto escucharemos una de sus misas, la célebre "Misa Mille regretz" compuesta sobre la canción profana, "Mille regretz" de Josquin. &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>01:00:30</itunes:duration>
+<pubDate>Fri, 25 Mar 2011 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/8/5/1301054506358.mp3</guid>
+</item>
+<item>
+<title>Música antigua - En suelo inglés - 18/03/11</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/1/8/1300448416281.mp3" length="3590010" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/1/8/1300448416281.mp3</link>
+<description>&lt;P&gt;Con esta música de Henry Purcell, uno de los más grandes maestros que ha dado Inglaterra, abrimos este espacio de hoy que va a transcurrir por entero en suelo inglés. Tendremos varios ejemplos de esa música escrita de ese modo particular que supieron perfilar los maestros ingleses. Y hoy vamos a escuchar música de Purcell, de los hermanos Lawes, piezas recogidas por John Playford, alguna página anónima, unas piezas de Jacques Gaultier, otras de William Byrd y un fragmento de una de las misas de John Taverner. &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Con esta música de Henry Purcell, uno de los más grandes maestros que ha dado Inglaterra, abrimos este espacio de hoy que va a transcurrir por entero en suelo inglés. Tendremos varios ejemplos de esa música escrita de ese modo particular que supieron perfilar los maestros ingleses. Y hoy vamos a escuchar música de Purcell, de los hermanos Lawes, piezas recogidas por John Playford, alguna página anónima, unas piezas de Jacques Gaultier, otras de William Byrd y un fragmento de una de las misas de John Taverner. &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>00:59:50</itunes:duration>
+<pubDate>Fri, 18 Mar 2011 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/1/8/1300448416281.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Tirano Amor - 11/03/11</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/9/6/1299843216969.mp3" length="3700064" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/9/6/1299843216969.mp3</link>
+<description>&lt;P&gt;Con una frottola de Antonio Stringari que hablaba del dulce veneno de&lt;/P&gt;&lt;P&gt;las flechas del amor, abrimos este programa de hoy en el que, con&lt;/P&gt;&lt;P&gt;música de Tromboncino, Guerrero, Monteverdi, Lully, Caldara y algunos&lt;/P&gt;&lt;P&gt;otros autores nos acercaremos al Amor, si bien centrando la atención en&lt;/P&gt;&lt;P&gt;el dolor amoroso, en ese mundo cruel del Amor Tirano. &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Con una frottola de Antonio Stringari que hablaba del dulce veneno de&lt;/P&gt;&lt;P&gt;las flechas del amor, abrimos este programa de hoy en el que, con&lt;/P&gt;&lt;P&gt;música de Tromboncino, Guerrero, Monteverdi, Lully, Caldara y algunos&lt;/P&gt;&lt;P&gt;otros autores nos acercaremos al Amor, si bien centrando la atención en&lt;/P&gt;&lt;P&gt;el dolor amoroso, en ese mundo cruel del Amor Tirano. &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>01:01:40</itunes:duration>
+<pubDate>Fri, 11 Mar 2011 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/9/6/1299843216969.mp3</guid>
+</item>
+<item>
+<title>Música antigua - La expansión italiana (III): España - 04/03/11</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/8/4/1299240922548.mp3" length="3574624" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/8/4/1299240922548.mp3</link>
+<description>&lt;P&gt;Si hubo un lugar donde acudieron muchos maestros italianos y donde el continuo trasvase de cultura italiana fue constante, ese lugar fue España. Hoy vamos a poder comprobar cómo la música italiana y la española mantuvieron un permanente 'idilio' a lo largo de los siglos. Y tendremos músicas de Diego Ortiz, Antonio de Cabezón, Andrea Falconieri, Luigi Boccherini y Doménico Scarlatti. &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Si hubo un lugar donde acudieron muchos maestros italianos y donde el continuo trasvase de cultura italiana fue constante, ese lugar fue España. Hoy vamos a poder comprobar cómo la música italiana y la española mantuvieron un permanente 'idilio' a lo largo de los siglos. Y tendremos músicas de Diego Ortiz, Antonio de Cabezón, Andrea Falconieri, Luigi Boccherini y Doménico Scarlatti. &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>00:59:34</itunes:duration>
+<pubDate>Fri, 04 Mar 2011 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/8/4/1299240922548.mp3</guid>
+</item>
+<item>
+<title>Música antigua - La expansión italiana (II) - 25/02/11</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/1/8/1298633697881.mp3" length="3521830" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/1/8/1298633697881.mp3</link>
+<description>&lt;P&gt;Hace algunas semanas comenzábamos un serie de programas dedicados a lo que denominábamos La expansión italiana. Ese estilo de componer que desde Italia se extendió por toda Europa.&lt;/P&gt;&lt;P&gt;&lt;/P&gt;&lt;P&gt;Hoy también vamos a seguirle los pasos a ese gusto italiano que rápidamente se propagó por todas partes. Y nos acercaremos a diversas composiciones de Francesco Corbetta, Heinrich Schütz, Antonio Caldara, Johann Sebastian Bach y Georg Friedrich Haendel. &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Hace algunas semanas comenzábamos un serie de programas dedicados a lo que denominábamos La expansión italiana. Ese estilo de componer que desde Italia se extendió por toda Europa.&lt;/P&gt;&lt;P&gt;&lt;/P&gt;&lt;P&gt;Hoy también vamos a seguirle los pasos a ese gusto italiano que rápidamente se propagó por todas partes. Y nos acercaremos a diversas composiciones de Francesco Corbetta, Heinrich Schütz, Antonio Caldara, Johann Sebastian Bach y Georg Friedrich Haendel. &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>00:58:41</itunes:duration>
+<pubDate>Fri, 25 Feb 2011 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/1/8/1298633697881.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Pavana - 18/02/11</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/4/0/1298029129604.mp3" length="3521073" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/4/0/1298029129604.mp3</link>
+<description>&lt;P&gt;La Pavana es baile español que tomó su nombre de la pausa y meneo grave con que andan los pavos, por lo que la música de la danza acompaña a los pasos graves y lentos que se gastan en la ejecución.. Así describía Felipe Roxó de Flores en su Tratado de Recreación instructiva sobre la danza, su invención y diferencias publicado en Madrid en 1793 la antigua danza de la Pavana. Nosotros hoy tendremos un programa dedicado por entero a la Pavana. &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;La Pavana es baile español que tomó su nombre de la pausa y meneo grave con que andan los pavos, por lo que la música de la danza acompaña a los pasos graves y lentos que se gastan en la ejecución.. Así describía Felipe Roxó de Flores en su Tratado de Recreación instructiva sobre la danza, su invención y diferencias publicado en Madrid en 1793 la antigua danza de la Pavana. Nosotros hoy tendremos un programa dedicado por entero a la Pavana. &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>00:58:41</itunes:duration>
+<pubDate>Fri, 18 Feb 2011 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/4/0/1298029129604.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Francia medieval - 11/02/11</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/3/5/1297424384753.mp3" length="3639538" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/3/5/1297424384753.mp3</link>
+<description>&lt;P&gt;Hoy vamos a tener un recorrido a través de la música francesa. Tendremos música medieval procedente de Francia, con obras de la escuela de Notre Dame, de Guillermo de Aquitania, Conon de Bethune, Richard de Fournival, Guillaume de Machaut y algunas otras composiciones anónimas. &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Hoy vamos a tener un recorrido a través de la música francesa. Tendremos música medieval procedente de Francia, con obras de la escuela de Notre Dame, de Guillermo de Aquitania, Conon de Bethune, Richard de Fournival, Guillaume de Machaut y algunas otras composiciones anónimas. &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>01:00:39</itunes:duration>
+<pubDate>Fri, 11 Feb 2011 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/3/5/1297424384753.mp3</guid>
+</item>
+<item>
+<title>Música antigua - La expansión italiana, 1 - 04/02/11</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/8/4/1296820251748.mp3" length="3656909" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/8/4/1296820251748.mp3</link>
+<description>&lt;P&gt;Con esta composición de un músico napolitano, Nicola Matteis, que fue uno más de entre los muchos músicos italianos que abandonaron Italia llevando su música a lugares lejanos, hemos comenzado este programa de hoy que vamos a dedicar a la "expansión italiana", a esos maestros italianos que llevaron su estilo a otros lugares de Europa y a eta música italiana que se asentó firmemente en la cultura europea. Hoy en este primer capítulo hablaremos de Thomas Morley, Nicola Matteis, Alfonso Ferrabosco, Carlo Francesco Pollarolo, Lully, Kapsberger y Haendel. &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Con esta composición de un músico napolitano, Nicola Matteis, que fue uno más de entre los muchos músicos italianos que abandonaron Italia llevando su música a lugares lejanos, hemos comenzado este programa de hoy que vamos a dedicar a la "expansión italiana", a esos maestros italianos que llevaron su estilo a otros lugares de Europa y a eta música italiana que se asentó firmemente en la cultura europea. Hoy en este primer capítulo hablaremos de Thomas Morley, Nicola Matteis, Alfonso Ferrabosco, Carlo Francesco Pollarolo, Lully, Kapsberger y Haendel. &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>01:00:56</itunes:duration>
+<pubDate>Fri, 04 Feb 2011 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/8/4/1296820251748.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Tomás Luis de Victoria (I) - 28/01/11</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/2/9/1296214515192.mp3" length="3576191" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/2/9/1296214515192.mp3</link>
+<description>&lt;P&gt;Con una página de Victoria hemos comenzado el programa de hoy que va a&lt;/P&gt;&lt;P&gt;ser el primero de varios espacios que a lo largo de este año, año en el&lt;/P&gt;&lt;P&gt;que se cumple el cuarto centenario de su muerte en Madrid, dedicaremos a&lt;/P&gt;&lt;P&gt;la figura de Tomás Luis de Victoria.&lt;/P&gt;&lt;P&gt;En 1603 falleció la Emperatriz, a la que tánto debía Victoria y su&lt;/P&gt;&lt;P&gt;capellán y músico compuso un Oficio de Difuntos para las solemnes&lt;/P&gt;&lt;P&gt;exequias de María de Austria: el Officium defunctorum: in obitu et&lt;/P&gt;&lt;P&gt;obsequiis sacrae imperatricis. Y esta obra de Victoria será lo que&lt;/P&gt;&lt;P&gt;escucharemos en este primer acercamiento del año a la figura del maestro&lt;/P&gt;&lt;P&gt;de Ávila. &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Con una página de Victoria hemos comenzado el programa de hoy que va a&lt;/P&gt;&lt;P&gt;ser el primero de varios espacios que a lo largo de este año, año en el&lt;/P&gt;&lt;P&gt;que se cumple el cuarto centenario de su muerte en Madrid, dedicaremos a&lt;/P&gt;&lt;P&gt;la figura de Tomás Luis de Victoria.&lt;/P&gt;&lt;P&gt;En 1603 falleció la Emperatriz, a la que tánto debía Victoria y su&lt;/P&gt;&lt;P&gt;capellán y músico compuso un Oficio de Difuntos para las solemnes&lt;/P&gt;&lt;P&gt;exequias de María de Austria: el Officium defunctorum: in obitu et&lt;/P&gt;&lt;P&gt;obsequiis sacrae imperatricis. Y esta obra de Victoria será lo que&lt;/P&gt;&lt;P&gt;escucharemos en este primer acercamiento del año a la figura del maestro&lt;/P&gt;&lt;P&gt;de Ávila. &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>00:59:36</itunes:duration>
+<pubDate>Fri, 28 Jan 2011 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/2/9/1296214515192.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Músicas para el día de San Roque, en Venecia - 21/01/11</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/6/8/1295609647186.mp3" length="3415512" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/6/8/1295609647186.mp3</link>
+<description>&lt;P&gt;Hoy vamos a tener un programa dedicado por entero a la música de Giovanni Gabrieli, el organista de San Marcos y principal director de toda la vida musical de Venecia en la segunda mitad del siglo XVI y primeros años del XVII. Además Gabrieli era el compositor oficial de una de las grandes Scuolas venecianas, la Scuola Grande di San Rocco. Y hoy vamos a escuchar una reconstrucción de cómo pudo sonar la música escrita para conmemorar el día de San Rocco (San Roque) en la Scuola Grande di San Rocco, en Venecia por el año 1608. Toda la música que escucharemos, tocatas, sonatas, canzonas y motetes, serán composiciones de Giovanni Gabrieli . &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Hoy vamos a tener un programa dedicado por entero a la música de Giovanni Gabrieli, el organista de San Marcos y principal director de toda la vida musical de Venecia en la segunda mitad del siglo XVI y primeros años del XVII. Además Gabrieli era el compositor oficial de una de las grandes Scuolas venecianas, la Scuola Grande di San Rocco. Y hoy vamos a escuchar una reconstrucción de cómo pudo sonar la música escrita para conmemorar el día de San Rocco (San Roque) en la Scuola Grande di San Rocco, en Venecia por el año 1608. Toda la música que escucharemos, tocatas, sonatas, canzonas y motetes, serán composiciones de Giovanni Gabrieli . &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>00:56:55</itunes:duration>
+<pubDate>Fri, 21 Jan 2011 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/6/8/1295609647186.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Música para el peregrino - 14/01/11</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/0/8/1295004207780.mp3" length="3635045" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/0/8/1295004207780.mp3</link>
+<description>&lt;P&gt;En el Renacimiento y en los largos años de la Edad Media, la población de Europa era una población nómada, una población en movimiento.Oleadas de invasores del norte o continuas incursiones de los pueblos del Islam recorren Europa. Los navegantes del mediterráneo y los&lt;/P&gt;&lt;P&gt;del norte de Europa llegaban a todas las costas. Los reyes y poderosos cabalgaban con sus séquitos permanentemente, de uno a otro de sus dominios. Los campesinos, huyendo de la pobreza de su aldea escapaban a la aventura, pasando a ser toda su vida extranjeros en tierras&lt;/P&gt;&lt;P&gt;desconocidas. Artesanos, músicos, soldados, monjes, príncipes y obispos, todos en movimiento recorrían una Europa con grandes lagunas de población, con extensos territorios despoblados. Este era el mundo y el tiempo de las peregrinaciones medievales. Jerusalén, Belén, Santiago, Roma, Rocamador, Montserrat, Canterbury, Castrojeriz, Vila Sirga...siempre había un lugar hacia donde dirigir los pasos en peregrinación. Y hoy tendremos un programa de músicas peregrinas,&lt;/P&gt;&lt;P&gt;músicas para el peregrinaje. &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;En el Renacimiento y en los largos años de la Edad Media, la población de Europa era una población nómada, una población en movimiento.Oleadas de invasores del norte o continuas incursiones de los pueblos del Islam recorren Europa. Los navegantes del mediterráneo y los&lt;/P&gt;&lt;P&gt;del norte de Europa llegaban a todas las costas. Los reyes y poderosos cabalgaban con sus séquitos permanentemente, de uno a otro de sus dominios. Los campesinos, huyendo de la pobreza de su aldea escapaban a la aventura, pasando a ser toda su vida extranjeros en tierras&lt;/P&gt;&lt;P&gt;desconocidas. Artesanos, músicos, soldados, monjes, príncipes y obispos, todos en movimiento recorrían una Europa con grandes lagunas de población, con extensos territorios despoblados. Este era el mundo y el tiempo de las peregrinaciones medievales. Jerusalén, Belén, Santiago, Roma, Rocamador, Montserrat, Canterbury, Castrojeriz, Vila Sirga...siempre había un lugar hacia donde dirigir los pasos en peregrinación. Y hoy tendremos un programa de músicas peregrinas,&lt;/P&gt;&lt;P&gt;músicas para el peregrinaje. &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>01:00:35</itunes:duration>
+<pubDate>Fri, 14 Jan 2011 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/0/8/1295004207780.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Pastores Quidnam Vidistis - 07/01/11</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/9/8/1294403426189.mp3" length="3411149" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/9/8/1294403426189.mp3</link>
+<description>&lt;P&gt;Hemos comenzado con el motete navideño de Palestrina Hodie Christus natus est porque hoy tendremos un programa con obras vinculadas a la Navidad y a la adoración de los pastores y la de los Reyes Magos, que ayer mismo celebrábamos. Y comenzaremos con una pieza anónima inglesa&lt;/P&gt;&lt;P&gt;del siglo XIV. Seguiremos con un motete de Walter Lambe y terminaremos con el motete Pastores quidnam vidistis seguido de la Missa Pastores quidnam vidistis de Jacobus Clémens non Papa. &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Hemos comenzado con el motete navideño de Palestrina Hodie Christus natus est porque hoy tendremos un programa con obras vinculadas a la Navidad y a la adoración de los pastores y la de los Reyes Magos, que ayer mismo celebrábamos. Y comenzaremos con una pieza anónima inglesa&lt;/P&gt;&lt;P&gt;del siglo XIV. Seguiremos con un motete de Walter Lambe y terminaremos con el motete Pastores quidnam vidistis seguido de la Missa Pastores quidnam vidistis de Jacobus Clémens non Papa. &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>00:56:51</itunes:duration>
+<pubDate>Fri, 07 Jan 2011 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/9/8/1294403426189.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Música festiva - 31/12/10</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/6/8/1293794679186.mp3" length="3357311" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/6/8/1293794679186.mp3</link>
+<description>&lt;P&gt; Hoy, en estas fechas navideñas y festivas vamos a dedicarnos a la música de danza, música alegre que acompañe este tiempo del final de año en este día en el que decimos adiós al 2010 . Y para ello qué mejor que la danza. Así que comenzaremos con música de danza de Michael Praetorius. Seguiremos con una página de Frescobaldi y terminaremos con una de las suites de las Sinfonías para los banquetes del Rey de Michel-Richard de Lalande. &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt; Hoy, en estas fechas navideñas y festivas vamos a dedicarnos a la música de danza, música alegre que acompañe este tiempo del final de año en este día en el que decimos adiós al 2010 . Y para ello qué mejor que la danza. Así que comenzaremos con música de danza de Michael Praetorius. Seguiremos con una página de Frescobaldi y terminaremos con una de las suites de las Sinfonías para los banquetes del Rey de Michel-Richard de Lalande. &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>00:55:57</itunes:duration>
+<pubDate>Fri, 31 Dec 2010 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/6/8/1293794679186.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Navidad - 24/12/10</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/3/2/1293193055923.mp3" length="3336726" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/3/2/1293193055923.mp3</link>
+<description>&lt;P&gt;Con esta pieza sobre un conocido villancico navideño alemán hemos comenzado este programa de hoy dedicado a la música navideña. Tendremos obras de Escobar, Praetorius, Estendroffer, Finger y Monteverdi. &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Con esta pieza sobre un conocido villancico navideño alemán hemos comenzado este programa de hoy dedicado a la música navideña. Tendremos obras de Escobar, Praetorius, Estendroffer, Finger y Monteverdi. &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>00:55:36</itunes:duration>
+<pubDate>Fri, 24 Dec 2010 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/3/2/1293193055923.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Antonio de Cabezón (III)... con Miguel Bernal - 17/12/10</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/7/4/1292585834647.mp3" length="3701526" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/7/4/1292585834647.mp3</link>
+<description>&lt;P&gt;Con esta música de Antonio de Cabezón tañida en un órgano hemos comenzado este tercer programa dedicado al músico burgalés de quien este año se conmemora el quinto centenario de su nacimiento. Y hoy tenemos con nosotros a todo un especialista en la música de Cabezón, el catedrático de órgano del Conservatorio Superior de Música de Madrid, Miguel Bernal, quien arrojará luz sobre diversos aspectos de la obra de nuestro homenajeado.&lt;/P&gt;&lt;P&gt;&lt;/P&gt;&lt;P&gt; &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Con esta música de Antonio de Cabezón tañida en un órgano hemos comenzado este tercer programa dedicado al músico burgalés de quien este año se conmemora el quinto centenario de su nacimiento. Y hoy tenemos con nosotros a todo un especialista en la música de Cabezón, el catedrático de órgano del Conservatorio Superior de Música de Madrid, Miguel Bernal, quien arrojará luz sobre diversos aspectos de la obra de nuestro homenajeado.&lt;/P&gt;&lt;P&gt;&lt;/P&gt;&lt;P&gt; &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>01:01:41</itunes:duration>
+<pubDate>Fri, 17 Dec 2010 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/7/4/1292585834647.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Antonio de Cabezón(2): Canción glosada - 10/12/10</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/7/6/1291980880267.mp3" length="3723522" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/7/6/1291980880267.mp3</link>
+<description>&lt;P&gt;Con esta glosa de Antonio de Cabezón sobre la canción de Adrian Willaert "Je fille quant die me donne" comenzamos este segundo capítulo que estamos dedicando en MUSICA ANTIGUA a la figura de Antonio de Cabezón. Hoy centrándonos en un terreno en el que el ciego organista de Felipe II destacó de un modo especial. Se trata de las glosas, variaciones y diferencias que Cabezón compuso valiéndose de canciones y madrigales de otros autores. Así escucharemos glosas sobre piezas de Willaert, de Rore, Crecquillon, Arbeau, Pisador o Sandrin. &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Con esta glosa de Antonio de Cabezón sobre la canción de Adrian Willaert "Je fille quant die me donne" comenzamos este segundo capítulo que estamos dedicando en MUSICA ANTIGUA a la figura de Antonio de Cabezón. Hoy centrándonos en un terreno en el que el ciego organista de Felipe II destacó de un modo especial. Se trata de las glosas, variaciones y diferencias que Cabezón compuso valiéndose de canciones y madrigales de otros autores. Así escucharemos glosas sobre piezas de Willaert, de Rore, Crecquillon, Arbeau, Pisador o Sandrin. &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>01:02:03</itunes:duration>
+<pubDate>Fri, 10 Dec 2010 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/7/6/1291980880267.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Antonio de Cabezón (I): Músicos españoles de su entorno - 03/12/10</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/4/4/1291378659344.mp3" length="3669762" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/4/4/1291378659344.mp3</link>
+<description>&lt;P&gt;Con esta música de Antonio de Cabezón, hemos comenzado este primer programa de los tres que dediquemos a este compositor y organista español, que fue una de las figuras más sobresalientes de nuestro Renacimiento, y del que este año 2010 se ha conmemorado el quinto centenario de su nacimiento. Pero Cabezón no fue una estrella solitaria en el firmamento musical español de aquellos años. Estuvo rodeado de figuras de primer orden de la música hispana. Por ello, hoy, en este primer acercamiento a su figura, lo que pretendemos mostraros, es la obra de aquellos músicos españoles que fueron testigos de la maestría de Cabezón. Músicos que publicaron sus obras en vida del maestro o que incluso viajaron con él en el séquito del Príncipe Felipe. También tendremos muestras de algunos de estos músicos que formaron parte de su propia familia.&lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Con esta música de Antonio de Cabezón, hemos comenzado este primer programa de los tres que dediquemos a este compositor y organista español, que fue una de las figuras más sobresalientes de nuestro Renacimiento, y del que este año 2010 se ha conmemorado el quinto centenario de su nacimiento. Pero Cabezón no fue una estrella solitaria en el firmamento musical español de aquellos años. Estuvo rodeado de figuras de primer orden de la música hispana. Por ello, hoy, en este primer acercamiento a su figura, lo que pretendemos mostraros, es la obra de aquellos músicos españoles que fueron testigos de la maestría de Cabezón. Músicos que publicaron sus obras en vida del maestro o que incluso viajaron con él en el séquito del Príncipe Felipe. También tendremos muestras de algunos de estos músicos que formaron parte de su propia familia.&lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>01:01:09</itunes:duration>
+<pubDate>Fri, 03 Dec 2010 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/4/4/1291378659344.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Los alumnos de Bach.... con.... Jacques Ogg - 26/11/10</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/0/1/1290792538910.mp3" length="3542493" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/0/1/1290792538910.mp3</link>
+<description>&lt;P&gt;Hoy hemos comenzado con música de Johann Philipp Kirnberger, uno de los alumnos predilectos de Bach. Porque hoy vamos a introducirnos en la mismísima casa de Bach para acercarnos a esa faceta tan interesante de su vida, como fue la de su labor didáctica. Alumnos que acudían para aprender y se quedaban años viviendo en casa del mAestro, los hijos que eran instruidos por el padre y los hermanos mayores, las obras nacidas con una finalidad didáctica... todo un fascinante mundo del entorno de Bach en el que vamos a adentrarnos con pie seguro, guiados por una figura excepcional: El calvecinista holandés Jacques Ogg.&lt;/P&gt;&lt;P&gt; &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Hoy hemos comenzado con música de Johann Philipp Kirnberger, uno de los alumnos predilectos de Bach. Porque hoy vamos a introducirnos en la mismísima casa de Bach para acercarnos a esa faceta tan interesante de su vida, como fue la de su labor didáctica. Alumnos que acudían para aprender y se quedaban años viviendo en casa del mAestro, los hijos que eran instruidos por el padre y los hermanos mayores, las obras nacidas con una finalidad didáctica... todo un fascinante mundo del entorno de Bach en el que vamos a adentrarnos con pie seguro, guiados por una figura excepcional: El calvecinista holandés Jacques Ogg.&lt;/P&gt;&lt;P&gt; &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>00:59:02</itunes:duration>
+<pubDate>Fri, 26 Nov 2010 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/0/1/1290792538910.mp3</guid>
+</item>
+<item>
+<title>Música antigua - En un jardín inglés - 19/11/10</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/0/5/1290168708250.mp3" length="3596410" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/0/5/1290168708250.mp3</link>
+<description>&lt;P&gt;Con esta canción del compositor inglés de la era isabelina Thomas Campion, comenzamos este programa de hoy en el que nos vamos a adentrar ¿en un jardín inglés¿. Porque todo el programa de hoy estará conformado por música de maestros ingleses. Músicos y poetas que fueron floreciendo en este jardín musical inglés y dejándonos pequeñas joyas como esta cancion, y como las otras obras de Dunstable, Bacheler, Byrd, Tallis, Gibbons, Johnson, Bull y Purcell que nos acompañarán en nuestro paseo musical de hoy. &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Con esta canción del compositor inglés de la era isabelina Thomas Campion, comenzamos este programa de hoy en el que nos vamos a adentrar ¿en un jardín inglés¿. Porque todo el programa de hoy estará conformado por música de maestros ingleses. Músicos y poetas que fueron floreciendo en este jardín musical inglés y dejándonos pequeñas joyas como esta cancion, y como las otras obras de Dunstable, Bacheler, Byrd, Tallis, Gibbons, Johnson, Bull y Purcell que nos acompañarán en nuestro paseo musical de hoy. &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>00:59:56</itunes:duration>
+<pubDate>Fri, 19 Nov 2010 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/0/5/1290168708250.mp3</guid>
+</item>
+<item>
+<title>Música antigua - De isla en isla - 12/11/10</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/9/7/1289561475679.mp3" length="3381265" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/9/7/1289561475679.mp3</link>
+<description>&lt;P&gt;Con estos 'Canarios' de Antonio Martín y Coll hemos comenzado este programa de hoy en el que vamos a navegar por diferentes mares haciendo escala en muy diversos puertos, pero todos ellos situados en medio del océano, en ínsulas extrañas. Islas, músicas insulares de los tiempos antiguos, que nos acompañarán en esta travesía marítima de hoy en la que arribaremos musicalmente a las Islas Canarias, a Chipre, a Irlanda, a Córcega, a Malta e incluso al Timor oriental... &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Con estos 'Canarios' de Antonio Martín y Coll hemos comenzado este programa de hoy en el que vamos a navegar por diferentes mares haciendo escala en muy diversos puertos, pero todos ellos situados en medio del océano, en ínsulas extrañas. Islas, músicas insulares de los tiempos antiguos, que nos acompañarán en esta travesía marítima de hoy en la que arribaremos musicalmente a las Islas Canarias, a Chipre, a Irlanda, a Córcega, a Malta e incluso al Timor oriental... &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>00:56:21</itunes:duration>
+<pubDate>Fri, 12 Nov 2010 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/9/7/1289561475679.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Lamento amoroso - 05/11/10</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/4/4/1288957186244.mp3" length="3560491" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/4/4/1288957186244.mp3</link>
+<description>&lt;P&gt;Con esta melancólica Pieza sin título de John Dowland, hemos comenzado este programa de hoy que estará repleto de tristeza, sufrimiento y dolor. Porque todo el programa de hoy girará en torno a la pasión amorosa, a los amores difíciles, crueles y dolorosos que a menudo afligen y marchitan el alma de los enamorados. Y será con músicas de Le Camus, Tromboncino, Guerrero, Ferrari, Purcell y otros autores que transcribieron en música sus profundos pesares amorosos. &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Con esta melancólica Pieza sin título de John Dowland, hemos comenzado este programa de hoy que estará repleto de tristeza, sufrimiento y dolor. Porque todo el programa de hoy girará en torno a la pasión amorosa, a los amores difíciles, crueles y dolorosos que a menudo afligen y marchitan el alma de los enamorados. Y será con músicas de Le Camus, Tromboncino, Guerrero, Ferrari, Purcell y otros autores que transcribieron en música sus profundos pesares amorosos. &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>00:59:20</itunes:duration>
+<pubDate>Fri, 05 Nov 2010 11:00:00 +0100</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/4/4/1288957186244.mp3</guid>
+</item>
+<item>
+<title>Música antigua - El clave... con Denise de La-Herrán - 29/10/10</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/2/3/1288348930032.mp3" length="3632981" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/2/3/1288348930032.mp3</link>
+<description>&lt;P&gt;Hoy tendremos un programa dedicado por entero al clave y otros instrumentos afines. Escucharemos el sonido de un virginal, un claviórgano, un clavicordio y claves diversos. Y para conocer mejor estos instrumentos tendremos con nosotros a una experta. Denise de La-Herrán (29/10/10). &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Hoy tendremos un programa dedicado por entero al clave y otros instrumentos afines. Escucharemos el sonido de un virginal, un claviórgano, un clavicordio y claves diversos. Y para conocer mejor estos instrumentos tendremos con nosotros a una experta. Denise de La-Herrán (29/10/10). &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>01:00:32</itunes:duration>
+<pubDate>Fri, 29 Oct 2010 11:00:00 +0200</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/2/3/1288348930032.mp3</guid>
+</item>
+<item>
+<title>Música antigua - El viaje de La Mónica - 22/10/10</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/6/5/1287742663256.mp3" length="3580527" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/6/5/1287742663256.mp3</link>
+<description>&lt;P&gt;Hoy viajaremos por Europa con una canción, la canción de La Mónica, o "la Monaca", que a lo largo de los siglos y en diversos países fue transformándose en el coral alemán "Von Gott will ich nicht lassen"; en la canción francesa "Une jeune fillette"; en la pieza flamenca "Wat mogen zich de Papen"; en el aria della Mónica en Italia o en la página instrumental "The Queens almande" en Inglaterra. Diferentes nombres para una misma música que, desde sus orígenes populares en el siglo XV, fue adaptándose para perdurar durante cientos de años (22/10/10). &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Hoy viajaremos por Europa con una canción, la canción de La Mónica, o "la Monaca", que a lo largo de los siglos y en diversos países fue transformándose en el coral alemán "Von Gott will ich nicht lassen"; en la canción francesa "Une jeune fillette"; en la pieza flamenca "Wat mogen zich de Papen"; en el aria della Mónica en Italia o en la página instrumental "The Queens almande" en Inglaterra. Diferentes nombres para una misma música que, desde sus orígenes populares en el siglo XV, fue adaptándose para perdurar durante cientos de años (22/10/10). &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>00:59:40</itunes:duration>
+<pubDate>Fri, 22 Oct 2010 11:00:00 +0200</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/6/5/1287742663256.mp3</guid>
+</item>
+<item>
+<title>Música antigua - Il ritorno - 15/10/10</title>
+<enclosure url="http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/4/1/1287138640714.mp3" length="3687499" type="audio/mpeg"/>
+<link>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/4/1/1287138640714.mp3</link>
+<description>&lt;P&gt;Hoy vamos a dedicar nuestro tiempo, al regreso, a los viajes de ida... y sobre todo, de vuelta. A esos sentimientos de felicidad que afloran cuando, tras una larga ausencia, un exilio o tras superar grandes peligros o calamidades, se encuentra al fin el camino de regreso hacia la tierra natal, hacia el lugar amado. Un lugar que en muchos casos está hondamente arraigado en el corazón. Y tendremos músicas vinculadas a estos retornos y relacionadas con grandes viajes como los de Orfeo, Ulises, el hijo pródigo y algunos otros. Y será aderezado con músicas de Monteverdi, Gombert, Vázquez, Charpentier, Dowland, Haendel y de autor anónimo (15/10/10). &lt;/P&gt;</description>
+<itunes:summary>&lt;P&gt;Hoy vamos a dedicar nuestro tiempo, al regreso, a los viajes de ida... y sobre todo, de vuelta. A esos sentimientos de felicidad que afloran cuando, tras una larga ausencia, un exilio o tras superar grandes peligros o calamidades, se encuentra al fin el camino de regreso hacia la tierra natal, hacia el lugar amado. Un lugar que en muchos casos está hondamente arraigado en el corazón. Y tendremos músicas vinculadas a estos retornos y relacionadas con grandes viajes como los de Orfeo, Ulises, el hijo pródigo y algunos otros. Y será aderezado con músicas de Monteverdi, Gombert, Vázquez, Charpentier, Dowland, Haendel y de autor anónimo (15/10/10). &lt;/P&gt;</itunes:summary>
+<itunes:subtitle/>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>01:01:27</itunes:duration>
+<pubDate>Fri, 15 Oct 2010 11:00:00 +0200</pubDate>
+<category>Música antigua</category>
+<itunes:author>RNE</itunes:author>
+<guid>http://www.rtve.es/resources/TE_SMUANTI/podcast/mp3/4/1/1287138640714.mp3</guid>
+</item>
+</channel>
+</rss>
